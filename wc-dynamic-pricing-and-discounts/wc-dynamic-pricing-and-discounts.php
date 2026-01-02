@@ -10,7 +10,7 @@
  * Text Domain: rp_wcdpd
  * Domain Path: /languages
  *
- * Version: 2.5.5
+ * Version: 2.5.6
  *
  * Requires at least: 6.5
  * Tested up to: 6.9
@@ -38,7 +38,7 @@ define('RP_WCDPD_ADMIN_CAPABILITY', 'manage_rp_wcdpd');
 define('RP_WCDPD_SUPPORT_PHP', '8.0');
 define('RP_WCDPD_SUPPORT_WP', '6.5');
 define('RP_WCDPD_SUPPORT_WC', '9.0');
-define('RP_WCDPD_VERSION', '2.5.5');
+define('RP_WCDPD_VERSION', '2.5.6');
 
 // Load main plugin class
 require_once 'rp_wcdpd.class.php';
