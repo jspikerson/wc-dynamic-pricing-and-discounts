@@ -22,23 +22,16 @@ Date: 2026-01-02
 - PHP 8.0+ (optimized for 8.2+)
 - Declared HPOS compatibility
 
-## Installation / Upgrade (Replacing the Original Plugin)
-To replace the original plugin without any CLI:
-- Download the ZIP from GitHub Releases named `wc-dynamic-pricing-and-discounts.zip`.
-- This ZIP already contains the correct root folder `wc-dynamic-pricing-and-discounts`.
+## Installation / Upgrade
 
-Steps (WP Admin):
-1. Backup your site.
-2. In WordPress admin, go to Plugins → Add New → Upload Plugin.
-3. Choose `wc-dynamic-pricing-and-discounts.zip` and click Install.
-4. If prompted, confirm replacement/overwrite of the existing plugin.
-5. Activate.
+**[Download Latest Version (ZIP)](https://github.com/dennisfranck/wc-dynamic-pricing-and-discounts-by-dead-rightpress/releases/latest/download/wc-dynamic-pricing-and-discounts.zip)**  
+*(Use the link above. Do not use "Source code" from GitHub)*
 
-Alternative: the versioned ZIP (`wc-dynamic-pricing-and-discounts-<version>.zip`) in Releases works the same way.
-
-Notes:
-- Do not use GitHub’s “Source code (zip)” — it won’t have the correct plugin root folder.
-- Repository name on GitHub does not affect WordPress installation; only the folder inside the ZIP matters.
+**Steps:**
+1. Go to **Plugins → Add New → Upload Plugin**.
+2. Upload the downloaded ZIP file.
+3. Click **Install Now**.
+4. If prompted, confirm to **Replace current with uploaded**.
 
 ## Repository Naming Guidance
 - You can name the GitHub repository `wc-dynamic-pricing-and-discounts-by-dead-rightpress` to clarify community maintenance.
