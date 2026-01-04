@@ -33,11 +33,6 @@ Date: 2026-01-02
 3. Click **Install Now**.
 4. If prompted, confirm to **Replace current with uploaded**.
 
-## Repository Naming Guidance
-- You can name the GitHub repository `wc-dynamic-pricing-and-discounts-by-dead-rightpress` to clarify community maintenance.
-- For WordPress installation, only the root folder inside the distributed zip matters. Use `wc-dynamic-pricing-and-discounts` as the zip root folder to replace the original plugin cleanly.
-- Keeping the plugin display name as-is avoids confusion in the WP admin list; documentation clarifies that this is a community-maintained fork.
-
 ## License / Credits
 - Original author rights preserved; this package is community maintenance.
 - No functional behavior changes, only maintenance and compatibility updates.
