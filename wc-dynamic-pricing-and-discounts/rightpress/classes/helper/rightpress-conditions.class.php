@@ -316,6 +316,14 @@ final class RightPress_Conditions
     {
 
         $items = array();
+        $locale_switched = false;
+
+        if (function_exists('get_user_locale') && function_exists('switch_to_locale') && function_exists('restore_previous_locale')) {
+            $user_locale = function_exists('determine_locale') ? determine_locale() : get_user_locale();
+            if (!empty($user_locale) && $user_locale !== get_locale()) {
+                $locale_switched = switch_to_locale($user_locale);
+            }
+        }
 
         // Get weekdays
         foreach (RightPress_Help::get_weekdays() as $weekday_key => $weekday) {
@@ -325,6 +333,10 @@ final class RightPress_Conditions
                 'id'    => (string) $weekday_key,
                 'text'  => $weekday
             );
+        }
+
+        if ($locale_switched) {
+            restore_previous_locale();
         }
 
         return $items;
@@ -342,6 +354,14 @@ final class RightPress_Conditions
     {
 
         $items = array();
+        $locale_switched = false;
+
+        if (function_exists('get_user_locale') && function_exists('switch_to_locale') && function_exists('restore_previous_locale')) {
+            $user_locale = function_exists('determine_locale') ? determine_locale() : get_user_locale();
+            if (!empty($user_locale) && $user_locale !== get_locale()) {
+                $locale_switched = switch_to_locale($user_locale);
+            }
+        }
 
         // Iterate over 31 days
         for ($i = 1; $i <= 31; $i++) {
@@ -359,6 +379,10 @@ final class RightPress_Conditions
             'text'  => esc_html__('last day', 'rightpress'),
         );
 
+        if ($locale_switched) {
+            restore_previous_locale();
+        }
+
         return $items;
     }
 
@@ -374,6 +398,14 @@ final class RightPress_Conditions
     {
 
         $items = array();
+        $locale_switched = false;
+
+        if (function_exists('get_user_locale') && function_exists('switch_to_locale') && function_exists('restore_previous_locale')) {
+            $user_locale = function_exists('determine_locale') ? determine_locale() : get_user_locale();
+            if (!empty($user_locale) && $user_locale !== get_locale()) {
+                $locale_switched = switch_to_locale($user_locale);
+            }
+        }
 
         // Get months
         foreach (RightPress_Help::get_months() as $month_key => $month) {
@@ -383,6 +415,10 @@ final class RightPress_Conditions
                 'id'    => (string) $month_key,
                 'text'  => $month
             );
+        }
+
+        if ($locale_switched) {
+            restore_previous_locale();
         }
 
         return $items;

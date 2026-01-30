@@ -203,6 +203,8 @@ class RP_WCDPD_Assets extends RightPress_Assets
                 'select2_placeholder_custom_product_taxonomies' => esc_html__('No taxonomies enabled', 'rp_wcdpd'),
                 'select2_placeholder'                           => esc_html__('Select values', 'rp_wcdpd'),
                 'select2_no_results'                            => esc_html__('No results found', 'rp_wcdpd'),
+                'select2_input_too_short'                       => esc_html__('Please enter 1 or more characters', 'rp_wcdpd'),
+                'select2_searching'                             => esc_html__('Searching...', 'rp_wcdpd'),
             ),
         ));
 
@@ -218,6 +220,8 @@ class RP_WCDPD_Assets extends RightPress_Assets
             'labels'                            => array(
                 'select2_placeholder'   => esc_html__('Select values', 'rp_wcdpd'),
                 'select2_no_results'    => esc_html__('No results found', 'rp_wcdpd'),
+                'select2_input_too_short' => esc_html__('Please enter 1 or more characters', 'rp_wcdpd'),
+                'select2_searching'       => esc_html__('Searching...', 'rp_wcdpd'),
                 'row_note_placeholder'  => $row_note_placeholder,
                 'per_item'              => esc_html__('per item', 'rp_wcdpd'),
                 'per_cart_item'         => esc_html__('per cart item', 'rp_wcdpd'),

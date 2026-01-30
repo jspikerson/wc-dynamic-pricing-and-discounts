@@ -76,6 +76,12 @@ jQuery(document).ready(function() {
             language: {
                 noResults: function (params) {
                     return rp_wcdpd.labels.select2_no_results;
+                },
+                inputTooShort: function (params) {
+                    return rp_wcdpd.labels.select2_input_too_short;
+                },
+                searching: function (params) {
+                    return rp_wcdpd.labels.select2_searching;
                 }
             },
         };

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce Dynamic Pricing & Discounts\n"
-"POT-Creation-Date: 2025-01-11 11:27-0300\n"
-"PO-Revision-Date: 2025-03-12 11:11-0300\n"
+"POT-Creation-Date: 2026-01-30 02:28-0300\n"
+"PO-Revision-Date: 2026-01-30 02:29-0300\n"
 "Last-Translator: Dennis Franck <contato@seusite.me>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -21,375 +21,46 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: rp_wcdpd.class.php:384
-#, php-format
-msgid ""
-"%1$s requires PHP %2$s or later. Please update PHP on your server to use "
-"this plugin."
-msgstr ""
-"%1$s requer %2$s PHP ou posterior. Atualize php em seu servidor para usar "
-"este plugin."
-
-#: rp_wcdpd.class.php:408
-#, php-format
-msgid ""
-"%1$s requires WooCommerce to be active. You can download WooCommerce %2$s."
-msgstr ""
-"%1$s requer que o WooCommerce esteja ativo. Você pode baixar WooCommerce "
-"%2$s."
-
-#: rp_wcdpd.class.php:420
-#, php-format
-msgid ""
-"%1$s requires WooCommerce version %2$s or later. Please update WooCommerce "
-"to use this plugin."
-msgstr ""
-"%1$s requer a versão WooCommerce %2$s ou posterior. Por favor, atualize o "
-"WooCommerce para usar este plugin."
-
-#: rp_wcdpd.class.php:396
-#, php-format
-msgid ""
-"%1$s requires WordPress version %2$s or later. Please update WordPress to "
-"use this plugin."
-msgstr ""
-"%1$s requer %2$s versão WordPress ou posterior. Por favor, atualize o "
-"WordPress para usar este plugin."
-
-#: rightpress-updates/rightpress-updates.class.php:572
-#, php-format
-msgid ""
-"%s supports automatic updates. To receive them, enter your CodeCanyon "
-"Purchase Code below."
-msgstr ""
-"%s suporta atualizações automáticas. Para recebê-las, insira seu Código de "
-"Compra CodeCanyon abaixo."
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:115
-msgid "0.01"
-msgstr "0.01"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:108
-msgid "1 day"
-msgstr "1 dia"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:98
-msgid "1 hour"
-msgstr "1 hora"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:102
-msgid "12 hours"
-msgstr "12 horas"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:115
-msgid "14 days"
-msgstr "14 dias"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:90
-msgid "15 minutes"
-msgstr "15 minutos"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:109
-msgid "2 days"
-msgstr "2 dias"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:99
-msgid "2 hours"
-msgstr "2 horas"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:110
-msgid "3 days"
-msgstr "3 dias"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:100
-msgid "3 hours"
-msgstr "3 horas"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:91
-msgid "30 minutes"
-msgstr "30 minutos"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:111
-msgid "4 days"
-msgstr "4 dias"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:92
-msgid "45 minutes"
-msgstr "45 minutos"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:112
-msgid "5 days"
-msgstr "5 dias"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:89
-msgid "5 minutes"
-msgstr "5 minút"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:113
-msgid "6 days"
-msgstr "6 dias"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:101
-msgid "6 hours"
-msgstr "6 horas"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:114
-msgid "7 days"
-msgstr "7 dias"
-
-#: views/settings/templates.php:346 views/settings/templates.php:347
-msgid "Add Condition"
-msgstr "Adicionar Condição"
-
-#: views/settings/templates.php:295 views/settings/templates.php:296
-#: views/settings/templates.php:316 views/settings/templates.php:317
-#: views/settings/templates.php:331 views/settings/templates.php:332
-msgid "Add Product"
-msgstr "Adicionar Produto"
-
-#: views/settings/templates.php:216 views/settings/templates.php:217
-msgid "Add Range"
-msgstr "Adicionar intervalo"
-
-#: views/settings/templates.php:25 views/settings/templates.php:26
-msgid "Add Rule"
-msgstr "Adicionar Regra"
-
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:87
-msgid "Add this product to cart now to get a special price."
-msgstr ""
-"Adicione este produto ao carrinho agora para ganhar um desconto especial."
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:67
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:68
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:73
-msgid "Add to cart - After"
-msgstr "Adicionar ao carrinho - Depois"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:66
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:67
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:72
-msgid "Add to cart - Before"
-msgstr "Adicionar ao carrinho - Antes"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:93
-msgid "Add to cart button - After"
-msgstr "Botão adicionar ao carrinho - Depois"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:92
-msgid "Add to cart button - Before"
-msgstr "Botão adicionar ao carrinho - Antes"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:95
-msgid "Add to cart form - After"
-msgstr "Formulário adicionar ao carrinho - Depois"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:94
-msgid "Add to cart form - Before"
-msgstr "Formulário adicionar ao carrinho - Antes"
-
-#: classes/rp-wcdpd-settings.class.php:2094
-msgid "Added Up"
-msgstr "Adicionado"
-
-#: classes/rp-wcdpd-settings.class.php:2096
-msgid "Added up"
-msgstr "Adicionado"
-
-#: classes/rp-wcdpd-settings.class.php:2097
-msgid "Added up by category"
-msgstr "Adicionado por categoria"
-
-#: classes/rp-wcdpd-pricing.class.php:199
-msgid "Adjustment"
-msgstr "Ajuste"
-
-#: classes/rp-wcdpd-settings.class.php:355
-msgid ""
-"Affects products with a sale price set in product settings. Setting this to "
-"regular price may override price adjustments made by other plugins."
-msgstr ""
-"Afeta produtos com um preço de oferta definido nas configurações do produto. "
-"Definir isso como preço normal pode substituir os ajustes de preço feitos "
-"por outros plugins."
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:121
-msgid "All applicable pricing rules & third-party adjustments"
-msgstr "Todas as regras de preços aplicáveis e ajustes de terceiros"
-
-#: classes/rp-wcdpd-settings.class.php:142
-#: classes/rp-wcdpd-settings.class.php:216
-#: classes/rp-wcdpd-settings.class.php:284
-msgid "All rules disabled"
-msgstr "Todas as regras desativadas"
-
-#: classes/rp-wcdpd-settings.class.php:370
-msgid "Allow coupons when prices are changed"
-msgstr "Permitir cupons quando os preços forem alterados"
-
-#: classes/rp-wcdpd-settings.class.php:403
-msgid "Allow coupons with cart discounts"
-msgstr "Permitir cupons com descontos no carrinho"
-
-#: classes/rp-wcdpd-settings.class.php:448
-msgid ""
-"Allows integration with 3rd party extensions that add custom product "
-"taxonomies, e.g. product brands."
-msgstr ""
-"Permite a integração com extensões de terceiros que adicionam taxonomias de "
-"produtos personalizados, exemplo: marcas de produtos."
-
-#: classes/rp-wcdpd-settings.class.php:476
-msgid "Amounts in conditions include tax"
-msgstr "Os valores nas condições incluem impostos"
-
-#: rightpress-updates/rightpress-updates.class.php:280
-#: rightpress-updates/rightpress-updates.class.php:288
-msgid "An unexpected error occurred."
-msgstr "Ocorreu um erro inesperado."
-
 #: classes/conditions/conditions/rp-wcdpd-condition-other-pricing-rules-applied.class.php:55
 #: classes/conditions/conditions/rp-wcdpd-condition-product-other-pricing-rules-applied.class.php:54
 msgid "Any pricing rule applied"
 msgstr "Qualquer regra de preço aplicada"
 
-#: views/settings/templates.php:528
-msgid "Applies in all cases."
-msgstr "Aplica-se em todos os casos."
+#: classes/methods/methods/rp-wcdpd-method-cart-discount-simple.class.php:54
+#: classes/methods/methods/rp-wcdpd-method-checkout-fee-simple.class.php:54
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-simple.class.php:54
+msgid "Simple"
+msgstr "Simples"
 
-#: views/settings/templates.php:362
-msgid "Applies to all items."
-msgstr "Aplica-se a todos os itens."
+#: classes/methods/methods/rp-wcdpd-method-cart-discount-simple.class.php:65
+msgid "Simple discount"
+msgstr "Desconto simples"
 
-#: views/settings/templates.php:360 views/settings/templates.php:446
-msgid "Applies to all products."
-msgstr "Aplica-se a todos os produtos."
+#: classes/methods/methods/rp-wcdpd-method-cart-discount-simple.class.php:178
+#: classes/methods/rp-wcdpd-controller-methods-cart-discount.class.php:788
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount.class.php:48
+#: classes/rp-wcdpd-pricing.class.php:202
+#: classes/rp-wcdpd-settings.class.php:393 views/settings/templates.php:189
+msgid "Discount"
+msgstr "Desconto"
 
-#: classes/rp-wcdpd-settings.class.php:126
-#: classes/rp-wcdpd-settings.class.php:200
-#: classes/rp-wcdpd-settings.class.php:268
-msgid "Apply All"
-msgstr "Aplicar Tudo"
+#: classes/methods/methods/rp-wcdpd-method-checkout-fee-simple.class.php:65
+msgid "Simple fee"
+msgstr "Taxa simples"
 
-#: classes/rp-wcdpd-settings.class.php:128
-#: classes/rp-wcdpd-settings.class.php:202
-#: classes/rp-wcdpd-settings.class.php:270
-msgid "Apply all applicable rules"
-msgstr "Aplicar todas as regras"
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-other-exclude.class.php:56
+msgid "Exclude products from all rules"
+msgstr "Excluir produtos de todas as regras"
 
-#: classes/rp-wcdpd-settings.class.php:209
-msgid "Apply bigger discount"
-msgstr "Aplicar o desconto maior"
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-other-restrict-purchase.class.php:59
+msgid "Restrict purchase of matched products"
+msgstr "Restringir a compra de produtos correspondentes"
 
-#: classes/rp-wcdpd-settings.class.php:277
-msgid "Apply bigger fee"
-msgstr "Aplicar a taxa maior"
-
-#: classes/rp-wcdpd-settings.class.php:134
-#: classes/rp-wcdpd-settings.class.php:208
-#: classes/rp-wcdpd-settings.class.php:276
-msgid "Apply first applicable rule"
-msgstr "Aplicar a primeira regra aplicável"
-
-#: classes/rp-wcdpd-settings.class.php:2153
-msgid "Apply if other rules are not applicable"
-msgstr "Aplicar se não existirem outras regras aplicáveis"
-
-#: classes/rp-wcdpd-settings.class.php:206
-#: classes/rp-wcdpd-settings.class.php:274
-msgid "Apply One"
-msgstr "Aplicar Uma"
-
-#: classes/rp-wcdpd-settings.class.php:132
-msgid "Apply One - Per Cart Item"
-msgstr "Aplicar Uma - Por item do Carrinho"
-
-#: classes/rp-wcdpd-settings.class.php:136
-msgid "Apply rule for bigger price"
-msgstr "Aplicar a regra para maior preço"
-
-#: classes/rp-wcdpd-settings.class.php:135
-msgid "Apply rule for smaller price"
-msgstr "Aplicar a regra para menor preço"
-
-#: classes/rp-wcdpd-settings.class.php:210
-msgid "Apply smaller discount"
-msgstr "Aplicar o desconto menor"
-
-#: classes/rp-wcdpd-settings.class.php:278
-msgid "Apply smaller fee"
-msgstr "Aplicar a taxa menor"
-
-#: classes/rp-wcdpd-settings.class.php:2152
-msgid "Apply this rule and disregard other rules"
-msgstr "Aplicar apenas esta regra e desconsiderar outras regras"
-
-#: classes/rp-wcdpd-settings.class.php:397
-msgid "Apply with individual use coupons"
-msgstr "Aplicar com cupons de uso individual"
-
-#: classes/rp-wcdpd-settings.class.php:2146
-msgid "Apply with other applicable rules"
-msgstr "Aplicar com outras regras aplicáveis"
-
-#: views/settings/templates.php:166
-msgid "At Full Price"
-msgstr "No preço total"
-
-#: classes/rp-wcdpd-assets.class.php:236
-msgid "At least one condition is required for this rule."
-msgstr "Pelo menos uma condição é necessária para esta regra."
-
-#: classes/rp-wcdpd-assets.class.php:235
-msgid "At least one product must be added to a group."
-msgstr "Pelo menos um produto deve ser adicionado a um grupo."
-
-#: classes/rp-wcdpd-assets.class.php:234
-msgid "At least one quantity range is required for this pricing rule."
-msgstr ""
-"Pelo menos um intervalo de quantidade é necessário para esta regra de preços."
-
-#: rightpress-updates/rightpress-updates.class.php:565
-msgid "Automatic Update Setup"
-msgstr "Configuração de atualização automática"
-
-#: classes/rp-wcdpd-settings.class.php:358
-msgid "Automatically add free product to cart"
-msgstr "Adicione automaticamente o produto grátis ao carrinho"
-
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:88
-msgid ""
-"Available macros: {{price}} , {{original_price}} , {{description}} . The "
-"latter displays public description as set in pricing rule."
-msgstr ""
-"Macros disponíveis: {{price}} , {{original_price}} , {{description}} . Este "
-"último exibe a descrição pública conforme definido na regra de preço."
-
-#: classes/rp-wcdpd-settings.class.php:346
-msgid "Base price for products on sale"
-msgstr "Preço base para os produtos em oferta"
-
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-volume-bulk.class.php:51
-msgid "Bulk pricing"
-msgstr "Preço por Quantidade"
-
-#: views/settings/templates.php:166
-msgid "Buy"
-msgstr "Comprar"
-
-#: classes/rp-wcdpd-assets.class.php:216
-#, php-format
-msgid "Buy %s get %s"
-msgstr "Compre %s leve %s"
-
-#: classes/rp-wcdpd-assets.class.php:217
-#, php-format
-msgid "Buy %s get %s - Repeating"
-msgstr "Compre %s leve %s - Repetindo"
-
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-bogo.class.php:48
-msgid "Buy / Get"
-msgstr "Compre / Leve"
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-other.class.php:48
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-other.class.php:45
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-other.class.php:45
+msgid "Other"
+msgstr "Outro"
 
 #: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-bogo-xx-once.class.php:54
 msgid "Buy x get x"
@@ -407,419 +78,41 @@ msgstr "Compre x Leve y"
 msgid "Buy x get y - Repeating"
 msgstr "Compre x Leve y - Repetindo"
 
-#: classes/rp-wcdpd-assets.class.php:189
-msgid "Cart Discount"
-msgstr "Desconto no Carrinho"
-
-#: classes/rp-wcdpd-wc-order.class.php:80
-msgid "Cart Discount (deleted)"
-msgstr "Desconto no carrinho (excluído)"
-
-#: classes/rp-wcdpd-settings.class.php:187
-#: classes/rp-wcdpd-settings.class.php:378
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:55
-msgid "Cart Discounts"
-msgstr "Descontos no Carrinho"
-
-#: classes/rp-wcdpd-settings.class.php:190
-msgid "Cart Discounts Settings"
-msgstr "Configuração de Descontos no Carrinho"
-
-#: extensions/promotion-cart-item-descriptions/rp-wcdpd-promotion-cart-item-descriptions.class.php:48
-msgid "Cart Item Descriptions"
-msgstr "Descrições dos itens do carrinho"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:70
-msgid "Cart table - After"
-msgstr "Tabela do Carrinho - Depois"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:69
-msgid "Cart table - Before"
-msgstr "Tabela do Carrinho - Antes"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:72
-msgid "Cart totals - After"
-msgstr "Totais do Carrinho - Depois"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:71
-msgid "Cart totals - Before"
-msgstr "Totais do Carrinho - Antes"
-
-#: classes/rp-wcdpd-settings.class.php:341
-msgid "Change - Include all adjustment types"
-msgstr "Modificar - Incluir todos os tipos de ajustes"
-
-#: classes/rp-wcdpd-settings.class.php:340
-msgid "Change - Include simple adjustments"
-msgstr "Modificar - Incluir ajustes simples"
-
-#: classes/rp-wcdpd-settings.class.php:334
-msgid "Change display prices in shop"
-msgstr "Altere a exibição de preços na loja"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:76
-msgid "Checkout button - After"
-msgstr "Botão Finalizar Compra - Depois"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:75
-msgid "Checkout button - Before"
-msgstr "Botão Finalizar Compra - Antes"
-
-#: classes/rp-wcdpd-assets.class.php:192
-msgid "Checkout Fee"
-msgstr "Taxa de Finalização"
-
-#: classes/rp-wcdpd-settings.class.php:255
-#: classes/rp-wcdpd-settings.class.php:411
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:55
-msgid "Checkout Fees"
-msgstr "Taxas de Finalização"
-
-#: classes/rp-wcdpd-settings.class.php:258
-msgid "Checkout Fees Settings"
-msgstr "Configurações de Taxas de Finalização"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:97
-msgid "Checkout form - After"
-msgstr "Formulário de finalização - Depois"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:96
-msgid "Checkout form - Before"
-msgstr "Formulário de finalização - Antes"
-
-#: classes/rp-wcdpd-settings.class.php:464
-msgid "Click here to export"
-msgstr "Clique aqui para exportar"
-
-#: classes/rp-wcdpd-assets.class.php:237
-msgid "Closing quantity must not be lower than opening quantity."
-msgstr ""
-"A quantidade de fechamento não deve ser menor que a quantidade de abertura."
-
-#: classes/rp-wcdpd-settings.class.php:387
-msgid "Combine to one total discount"
-msgstr "Combine um desconto total"
-
-#: classes/rp-wcdpd-settings.class.php:420
-msgid "Combine to one total fee"
-msgstr "Combine uma taxa total"
-
-#: classes/rp-wcdpd-settings.class.php:391
-msgid "Combined discount title"
-msgstr "Título do desconto combinado"
-
-#: classes/rp-wcdpd-settings.class.php:426
-msgid "Combined fee title"
-msgstr "Título do imposto combinado"
-
-#: views/settings/templates.php:627
-msgid ""
-"Condition type no longer exists. Delete this placeholder after reviewing "
-"your settings."
-msgstr ""
-"O tipo de condição não existe mais. Exclua este espaço reservado após "
-"revisar suas configurações."
-
-#: views/settings/templates.php:609
-msgid ""
-"Condition type was disabled. Enable it or delete this placeholder after "
-"reviewing your settings."
-msgstr ""
-"O tipo de condição foi desativado. Ative ou exclua este espaço reservado "
-"após revisar suas configurações."
-
-#: classes/rp-wcdpd-settings.class.php:441 views/settings/templates.php:343
-msgid "Conditions"
-msgstr "Condições"
-
-#: classes/rp-wcdpd-settings.class.php:400
-msgid ""
-"Controls whether cart discounts should be applied if individual use coupon "
-"is applied to cart."
-msgstr ""
-"Controla se os descontos do carrinho devem ser aplicados se o cupom de uso "
-"individual for aplicado ao carrinho."
-
-#: classes/rp-wcdpd-settings.class.php:406
-msgid ""
-"Controls whether regular coupons are allowed if at least one cart discount "
-"is applicable to cart."
-msgstr ""
-"Controla se cupons regulares são permitidos se pelo menos um desconto de "
-"carrinho for aplicável ao carrinho."
-
-#: classes/rp-wcdpd-settings.class.php:373
-msgid ""
-"Controls whether regular coupons are allowed if at least one product pricing "
-"rule is applicable to cart items."
-msgstr ""
-"Controla se cupons regulares são permitidos se pelo menos uma regra de "
-"precificação de produto for aplicável aos itens do carrinho."
-
-#: classes/rp-wcdpd-settings.class.php:367
-msgid ""
-"Controls whether regular price is displayed next to adjusted price on shop "
-"pages."
-msgstr ""
-"Controla se o preço normal é exibido próximo ao preço ajustado nas páginas "
-"da loja."
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:46
-msgid "Countdown Timer"
-msgstr "Contagem Regressiva"
-
-#: views/settings/templates.php:618
-msgid ""
-"Custom taxonomy condition was disabled. Enable it or delete this placeholder "
-"after reviewing your settings."
-msgstr ""
-"A condição de taxonomia personalizada foi desativada. Ative ou exclua este "
-"espaço reservado após revisar suas configurações."
-
-#: views/settings/templates.php:636
-msgid ""
-"Custom taxonomy no longer exists. Delete this placeholder after reviewing "
-"your settings."
-msgstr ""
-"A taxonomia personalizada não existe mais. Exclua este espaço reservado após "
-"revisar suas configurações."
-
-#: extensions/promotion-rule-notifications/rp-wcdpd-promotion-rule-notifications.class.php:50
-msgid "Customer Notifications"
-msgstr "Notificações do Cliente"
-
-#: extensions/promotion-countdown-timer/templates/countdown-timer.php:32
-msgid "DAYS"
-msgstr "DIAS"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:106
-msgid "Days"
-msgstr "Dias"
-
-#: views/settings/templates.php:145
-msgid "Description"
-msgstr "Descrição"
-
-#: classes/rp-wcdpd-settings.class.php:140
-#: classes/rp-wcdpd-settings.class.php:214
-#: classes/rp-wcdpd-settings.class.php:282
-#: classes/rp-wcdpd-settings.class.php:2157
-#: classes/rp-wcdpd-settings.class.php:2159
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:80
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:82
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:105
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:107
-msgid "Disabled"
-msgstr "Desativado"
-
-#: classes/methods/methods/rp-wcdpd-method-cart-discount-simple.class.php:178
-#: classes/methods/rp-wcdpd-controller-methods-cart-discount.class.php:788
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount.class.php:48
-#: classes/rp-wcdpd-pricing.class.php:202
-#: classes/rp-wcdpd-settings.class.php:393 views/settings/templates.php:189
-msgid "Discount"
-msgstr "Desconto"
-
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:64
-#, php-format
-msgid "Discount %s has been applied to your cart."
-msgstr ""
-"O desconto <strong> \"{{title}}\" </strong> foi aplicado em seu carrinho."
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:109
-msgid "Discount amount"
-msgstr "Valor do desconto"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:113
-msgid "Discount amount threshold"
-msgstr "Limite do valor de desconto"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-item.class.php:48
-msgid "Discount Per Cart Item"
-msgstr "Desconto por item do carrinho"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-line.class.php:48
-msgid "Discount Per Cart Line"
-msgstr "Desconto por linha do carrinho"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:110
-msgid "Discount percentage"
-msgstr "Percentual de desconto"
-
-#: views/settings/templates.php:177
-msgid "Discounted"
-msgstr "Descontado"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:108
-msgid "Discounted price"
-msgstr "Preço com desconto"
-
-#: classes/rp-wcdpd-settings.class.php:386
-msgid "Display all individual discounts"
-msgstr "Exibir todos os descontos individuais"
-
-#: classes/rp-wcdpd-settings.class.php:419
-msgid "Display all individual fees"
-msgstr "Exibir todas as taxas individuais"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:131
-msgid "Display individual pricing tables"
-msgstr "Exibir tabelas de preços individuais"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:141
-msgid "Display missing ranges with regular price"
-msgstr "Exibir intervalos ausentes com preço normal"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:146
-msgid "Display non-purchasable quantities"
-msgstr "Exibir quantidades não compráveis"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:132
-msgid "Display one pricing table with all variations"
-msgstr "Exibir uma tabela de preços com todas as variações"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:74
-msgid "Display quantity next to price"
-msgstr "Exibir quantidade ao lado do preço"
-
-#: classes/rp-wcdpd-settings.class.php:364
-msgid "Display regular price when discounting"
-msgstr "Exibir o preço normal ao descontar"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:90
-msgid "Display separately"
-msgstr "Exibir separadamente"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:79
-msgid "Display subtotal when displaying quantity"
-msgstr "Exibir subtotal ao exibir quantidade"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:69
-msgid "Display when product is not discounted"
-msgstr "Exibir quando o produto não tiver desconto"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:47
-msgid "Displays a countdown timer for time restricted pricing rules."
-msgstr ""
-"Exibe uma contagem regressiva para regras de precificação com restrição de "
-"tempo."
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:61
-msgid ""
-"Displays a dynamically updated price on a single product page. This price "
-"reflects all pricing adjustments that would be applicable if a specified "
-"quantity was added to cart."
-msgstr ""
-"Exibe um preço atualizado dinamicamente em uma única página de produto. Este "
-"preço reflete todos os ajustes de preços que seriam aplicáveis se uma "
-"quantidade especificada fosse adicionada ao carrinho."
-
-#: extensions/promotion-upsell-notifications/rp-wcdpd-promotion-upsell-notifications.class.php:50
-msgid ""
-"Displays a notification when only one step is remaining to get a discount."
-msgstr ""
-"Exibe uma notificação quando está apenas um passo para ganhar um desconto."
-
-#: extensions/promotion-rule-notifications/rp-wcdpd-promotion-rule-notifications.class.php:51
-msgid ""
-"Displays a notification when pricing rule, cart discount or checkout fee is "
-"applied."
-msgstr ""
-"Exibe uma notificação quando a regra de preços, desconto do carrinho ou taxa "
-"de pagamento é aplicada."
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:53
-msgid ""
-"Displays a table with potential savings that come with higher quantities "
-"purchased."
-msgstr ""
-"Exibe uma tabela com potenciais economias para quantidades de compra maiores."
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:47
-msgid "Displays a total amount saved by customer on cart and checkout pages."
-msgstr ""
-"Exibe o valor total economizado pelo cliente no carrinho e páginas de "
-"finalização."
-
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:53
-msgid ""
-"Displays banners on product pages when product pricing rules are applicable. "
-"Banners can be customized using CSS styling, template overrides or filters."
-msgstr ""
-"Exibe banners nas páginas dos produtos quando as regras de precificação do "
-"produto são aplicáveis. Os banners podem ser personalizados usando estilo "
-"CSS, substituições de modelos ou filtros."
-
-#: extensions/promotion-cart-item-descriptions/rp-wcdpd-promotion-cart-item-descriptions.class.php:49
-msgid ""
-"Displays public descriptions of product pricing rules that are applicable to "
-"cart items."
-msgstr ""
-"Exibe descrições públicas das regras de precificação de produtos aplicáveis "
-"aos itens do carrinho."
-
-#: classes/rp-wcdpd-settings.class.php:339
-msgid "Do not change"
-msgstr "Não modificar"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:142
-msgid "Do not display missing ranges"
-msgstr "Não exibir intervalos ausentes"
-
-#: rightpress-updates/rightpress-updates.class.php:600
-msgid "Do not remind me again"
-msgstr "Não me lembre novamente"
-
-#: extensions/promotion-cart-item-descriptions/rp-wcdpd-promotion-cart-item-descriptions.class.php:52
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:50
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:56
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:50
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:56
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:64
-msgid "Enable"
-msgstr "Habilitar"
-
-#: extensions/promotion-upsell-notifications/rp-wcdpd-promotion-upsell-notifications.class.php:53
-msgid "Enable upsell notifications"
-msgstr "Habilitar notificações de upsell"
-
-#: classes/rp-wcdpd-settings.class.php:444
-msgid "Enabled custom taxonomy conditions"
-msgstr "Habilitar condições de taxonomias personalizadas"
-
-#: rightpress-updates/rightpress-updates.class.php:944
-msgid "Enter your Envato Purchase Code to enable automatic updates."
-msgstr ""
-"Insira seu código de compra da Envato para ativar as atualizações "
-"automáticas."
-
-#: classes/rp-wcdpd-assets.class.php:228
-msgid "Error: Please fix this element."
-msgstr "Erro: Por favor corrija este elemento."
-
-#: classes/rp-wcdpd-settings.class.php:2588
-msgid "Error: Uploaded configuration file is not valid."
-msgstr "Erro: o arquivo de configuração carregado não é válido."
-
-#: classes/rp-wcdpd-settings.class.php:353
-msgid "Exclude products already on sale"
-msgstr "Excluir os produtos que já estão em oferta"
-
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-other-exclude.class.php:56
-msgid "Exclude products from all rules"
-msgstr "Excluir produtos de todas as regras"
-
-#: classes/rp-wcdpd-settings.class.php:2150
-msgid "Exclusive"
-msgstr "Exclusivo"
-
-#: classes/rp-wcdpd-settings.class.php:2150
-msgid "Exclusive - Per Cart Item"
-msgstr "Exclusivo - Por item do carrinho"
-
-#: classes/rp-wcdpd-settings.class.php:462
-msgid "Export settings"
-msgstr "Exportar Configurações"
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-bogo.class.php:48
+msgid "Buy / Get"
+msgstr "Compre / Leve"
+
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-group-once.class.php:54
+msgid "Group of products"
+msgstr "Grupos de Produtos"
+
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-group-repeat.class.php:54
+msgid "Group of products - Repeating"
+msgstr "Grupos de Produtos - Repetindo"
+
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-group.class.php:48
+msgid "Group"
+msgstr "Grupo"
+
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-simple.class.php:65
+msgid "Simple adjustment"
+msgstr "Ajuste simples"
+
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-volume-bulk.class.php:51
+msgid "Bulk pricing"
+msgstr "Preço por Quantidade"
+
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-volume-tiered.class.php:51
+msgid "Tiered pricing"
+msgstr "Níveis de preços"
+
+#: classes/methods/methods/rp-wcdpd-method-product-pricing-volume.class.php:48
+msgid "Volume"
+msgstr "Volume"
+
+#: classes/methods/rp-wcdpd-controller-methods-cart-discount.class.php:220
+msgid "RightPress fixed cart discount"
+msgstr "Desconto fixo no carrinho"
 
 #: classes/methods/rp-wcdpd-controller-methods-checkout-fee.class.php:143
 #: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee.class.php:48
@@ -827,35 +120,6 @@ msgstr "Exportar Configurações"
 #: classes/rp-wcdpd-settings.class.php:428
 msgid "Fee"
 msgstr "Taxa"
-
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:64
-#, php-format
-msgid "Fee %s has been applied to your cart."
-msgstr "A taxa <strong> \"{{title}}\" </strong> foi aplicada em seu carrinho."
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-per-cart-item.class.php:48
-msgid "Fee Per Cart Item"
-msgstr "Taxa por item do carrinho"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-per-cart-line.class.php:48
-msgid "Fee Per Cart Line"
-msgstr "Taxa por linha do carrinho"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:120
-msgid "First applicable volume pricing rule only"
-msgstr "Somente a primeira regra de precificação por volume aplicável"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-amount.class.php:52
-msgid "Fixed discount"
-msgstr "Desconto Fixo"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-item-amount.class.php:52
-msgid "Fixed discount per cart item"
-msgstr "Desconto fixo por item do carrinho"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-line-amount.class.php:52
-msgid "Fixed discount per cart line"
-msgstr "Desconto fixo por linha do carrinho"
 
 #: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-amount-per-group.class.php:52
 msgid "Fixed discount per group"
@@ -865,6 +129,34 @@ msgstr "Desconto fixo por grupo"
 msgid "Fixed discount per item"
 msgstr "Desconto fixo por item"
 
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-amount.class.php:52
+msgid "Fixed discount"
+msgstr "Desconto Fixo"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-item-amount.class.php:52
+msgid "Fixed discount per cart item"
+msgstr "Desconto fixo por item do carrinho"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-item-percentage.class.php:52
+msgid "Percentage discount per cart item"
+msgstr "Desconto em porcentagem por item do carrinho"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-item.class.php:48
+msgid "Discount Per Cart Item"
+msgstr "Desconto por item do carrinho"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-line-amount.class.php:52
+msgid "Fixed discount per cart line"
+msgstr "Desconto fixo por linha do carrinho"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-line.class.php:48
+msgid "Discount Per Cart Line"
+msgstr "Desconto por linha do carrinho"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-percentage.class.php:52
+msgid "Percentage discount"
+msgstr "Desconto percentual"
+
 #: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-amount.class.php:52
 msgid "Fixed fee"
 msgstr "Taxa Fixa"
@@ -873,13 +165,25 @@ msgstr "Taxa Fixa"
 msgid "Fixed fee per cart item"
 msgstr "Taxa fixa por item do carrinho"
 
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-per-cart-item-percentage.class.php:52
+msgid "Percentage fee per cart item"
+msgstr "Porcentagem da taxa por item do carrinho"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-per-cart-item.class.php:48
+msgid "Fee Per Cart Item"
+msgstr "Taxa por item do carrinho"
+
 #: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-per-cart-line-amount.class.php:52
 msgid "Fixed fee per cart line"
 msgstr "Taxa fixa por linha do carrinho"
 
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fixed-price.class.php:52
-msgid "Fixed price"
-msgstr "Preço Fixo"
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-per-cart-line.class.php:48
+msgid "Fee Per Cart Line"
+msgstr "Taxa por linha do carrinho"
+
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-percentage.class.php:52
+msgid "Percentage fee"
+msgstr "Porcentagem de taxa"
 
 #: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fixed-price-per-group.class.php:52
 msgid "Fixed price per group"
@@ -893,179 +197,215 @@ msgstr "Preço fixo por item"
 msgid "Fixed price per range"
 msgstr "Preço fixo por intervalo"
 
-#: views/settings/templates.php:670
-msgid "From"
-msgstr "De"
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fixed-price.class.php:52
+msgid "Fixed price"
+msgstr "Preço Fixo"
 
-#: views/settings/templates.php:177
-msgid "Get"
-msgstr "Leve"
+#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fixed.class.php:48
+#: rightpress/components/rightpress-product-price/classes/rightpress-product-price-live-update.class.php:184
+msgid "Price"
+msgstr "Preço"
 
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-group.class.php:48
-msgid "Group"
-msgstr "Grupo"
+#: classes/rp-wcdpd-assets.class.php:189
+msgid "Cart Discount"
+msgstr "Desconto no Carrinho"
 
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-group-once.class.php:54
-msgid "Group of products"
-msgstr "Grupos de Produtos"
+#: classes/rp-wcdpd-assets.class.php:192
+msgid "Checkout Fee"
+msgstr "Taxa de Finalização"
 
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-quantity-group-repeat.class.php:54
-msgid "Group of products - Repeating"
-msgstr "Grupos de Produtos - Repetindo"
+#: classes/rp-wcdpd-assets.class.php:195
+msgid "Pricing Rule"
+msgstr "Regra de Preço"
 
-#: rightpress-updates/rightpress-updates.class.php:1209 rp_wcdpd.class.php:408
-msgid "here"
-msgstr "aqui"
+#: classes/rp-wcdpd-assets.class.php:203
+msgid "No taxonomies enabled"
+msgstr "Nenhuma Taxonomia habilitada"
 
-#: rightpress-updates/rightpress-updates.class.php:602
-msgid "Hide This Notice"
-msgstr "Ocultar este Aviso"
+#: classes/rp-wcdpd-assets.class.php:204 classes/rp-wcdpd-assets.class.php:221
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect.class.php:165
+msgid "Select values"
+msgstr "Selecione os valores"
 
-#: extensions/promotion-countdown-timer/templates/countdown-timer.php:37
-msgid "HOURS"
-msgstr "HORAS"
+#: classes/rp-wcdpd-assets.class.php:205 classes/rp-wcdpd-assets.class.php:222
+msgid "No results found"
+msgstr "Nenhum resultado encontrado"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:96
-msgid "Hours"
-msgstr "Horas"
+#: classes/rp-wcdpd-assets.class.php:206 classes/rp-wcdpd-assets.class.php:223
+msgid "Please enter 1 or more characters"
+msgstr "Digite 1 ou mais caracteres"
 
-#: classes/rp-wcdpd-settings.class.php:381
-msgid "If multiple discounts are applicable"
-msgstr "Se vários descontos forem aplicáveis"
+#: classes/rp-wcdpd-assets.class.php:207 classes/rp-wcdpd-assets.class.php:224
+msgid "Searching..."
+msgstr "Pesquisando..."
 
-#: classes/rp-wcdpd-settings.class.php:414
-msgid "If multiple fees are applicable"
-msgstr "Se múltiplas taxas forem aplicáveis"
-
-#: rp_wcdpd.class.php:384 rp_wcdpd.class.php:396 rp_wcdpd.class.php:408
-#: rp_wcdpd.class.php:420
+#: classes/rp-wcdpd-assets.class.php:218
 #, php-format
-msgid "If you have any questions, please contact %s."
-msgstr "Se você tiver alguma dúvida, entre em contato com %s."
+msgid "Buy %s get %s"
+msgstr "Compre %s leve %s"
 
-#: classes/rp-wcdpd-settings.class.php:453
-msgid "Import & Export"
-msgstr "Importar & Exportar"
+#: classes/rp-wcdpd-assets.class.php:219
+#, php-format
+msgid "Buy %s get %s - Repeating"
+msgstr "Compre %s leve %s - Repetindo"
 
-#: classes/rp-wcdpd-settings.class.php:456
-msgid "Import settings"
-msgstr "Importar Configurações"
+#: classes/rp-wcdpd-assets.class.php:226
+msgid "per item"
+msgstr "por item"
 
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:119
-msgid "Include cart discounts and coupons"
-msgstr "Inclui descontos e cupons no carrinho"
+#: classes/rp-wcdpd-assets.class.php:227
+msgid "per cart item"
+msgstr "por item do carrinho"
 
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:129
-msgid "Include tax"
-msgstr "Incluir taxa"
+#: classes/rp-wcdpd-assets.class.php:228
+msgid "per cart line"
+msgstr "por linha do carrinho"
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:123
+#: classes/rp-wcdpd-assets.class.php:229
+msgid "per group"
+msgstr "por grupo"
+
+#: classes/rp-wcdpd-assets.class.php:232
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:881
+msgid "Error: Please fix this element."
+msgstr "Erro: Por favor corrija este elemento."
+
+#: classes/rp-wcdpd-assets.class.php:233
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:882
+msgid "Value is required."
+msgstr "O valor é obrigatório."
+
+#: classes/rp-wcdpd-assets.class.php:234 classes/rp-wcdpd-assets.class.php:235
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:884
+msgid "Value must be positive."
+msgstr "O valor deve ser positivo."
+
+#: classes/rp-wcdpd-assets.class.php:236
+msgid "Value must be greater than or equal to 1."
+msgstr "O valor deve ser maior ou igual a 1."
+
+#: classes/rp-wcdpd-assets.class.php:237
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:883
+msgid "Value must be a whole number."
+msgstr "O valor deve ser um número inteiro."
+
+#: classes/rp-wcdpd-assets.class.php:238
+msgid "At least one quantity range is required for this pricing rule."
+msgstr "Pelo menos um intervalo de quantidade é necessário para esta regra de preços."
+"Pelo menos um intervalo de quantidade é necessário para esta regra de preços."
+
+#: classes/rp-wcdpd-assets.class.php:239
+msgid "At least one product must be added to a group."
+msgstr "Pelo menos um produto deve ser adicionado a um grupo."
+
+#: classes/rp-wcdpd-assets.class.php:240
+msgid "At least one condition is required for this rule."
+msgstr "Pelo menos uma condição é necessária para esta regra."
+
+#: classes/rp-wcdpd-assets.class.php:241
+msgid "Closing quantity must not be lower than opening quantity."
+msgstr "A quantidade de fechamento não deve ser menor que a quantidade de abertura."
+"A quantidade de fechamento não deve ser menor que a quantidade de abertura."
+
+#: classes/rp-wcdpd-assets.class.php:242
 msgid ""
-"Including all adjustments may yield unexpected results when complex "
-"conditions or relations are used in pricing rules."
+"Quantity range cannot be left open when adding subsequent quantity ranges."
 msgstr ""
-"A inclusão de todos os ajustes pode produzir resultados inesperados quando "
-"condições ou relações complexas são utilizadas nas regras de preços."
+"O intervalo de quantidades não pode ser deixado aberto ao adicionar "
+"intervalos de quantidades subsequentes."
 
-#: classes/rp-wcdpd-settings.class.php:2086
-msgid "Individual"
-msgstr "Individual"
+#: classes/rp-wcdpd-assets.class.php:243
+msgid ""
+"Quantity range must start with a higher value than previous quantity range."
+msgstr ""
+"O intervalo de quantidades deve começar com um valor mais alto que o "
+"intervalo de quantidades anterior."
 
-#: classes/rp-wcdpd-settings.class.php:2090
-msgid "Individual cart item"
-msgstr "Item individual no carrinho"
+#: classes/rp-wcdpd-assets.class.php:244
+msgid "Quantity ranges must not overlap."
+msgstr "As Faixas de Quantidade não devem se sobrepor."
 
-#: classes/rp-wcdpd-settings.class.php:2088
-msgid "Individual product"
-msgstr "Produto Individual"
+#: classes/rp-wcdpd-assets.class.php:245
+msgid "Rule must not contain conditions of non-existent type."
+msgstr "A regra não deve conter condições do tipo inexistente."
 
-#: classes/rp-wcdpd-settings.class.php:2089
-msgid "Individual variation"
-msgstr "Variação Individual"
+#: classes/rp-wcdpd-assets.class.php:246
+msgid "Rule must not contain disabled conditions."
+msgstr "A regra não deve conter condições desativadas."
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:87
-msgid "Inline"
-msgstr "Em linha"
+#: classes/rp-wcdpd-pricing.class.php:199
+msgid "Adjustment"
+msgstr "Ajuste"
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:89
-msgid "Inline - Horizontal"
-msgstr "Em linha - Horizontal"
+#: classes/rp-wcdpd-settings.class.php:113
+#: classes/rp-wcdpd-settings.class.php:331
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:55
+msgid "Product Pricing"
+msgstr "Preço do Produto"
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:90
-msgid "Inline - Vertical"
-msgstr "Em linha - Vertical"
+#: classes/rp-wcdpd-settings.class.php:116
+msgid "Product Pricing Settings"
+msgstr "Configurações de Preços dos Produtos"
 
-#: views/settings/templates.php:308
-msgid "Items"
-msgstr "Itens"
+#: classes/rp-wcdpd-settings.class.php:119
+#: classes/rp-wcdpd-settings.class.php:193
+#: classes/rp-wcdpd-settings.class.php:261
+msgid "Rule selection method"
+msgstr "Método de seleção de regras"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:55
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:55
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:109
-msgid "Label"
-msgstr "Etiqueta"
+#: classes/rp-wcdpd-settings.class.php:126
+#: classes/rp-wcdpd-settings.class.php:200
+#: classes/rp-wcdpd-settings.class.php:268
+msgid "Apply All"
+msgstr "Aplicar Tudo"
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:81
-msgid "Layout"
-msgstr "Layout"
+#: classes/rp-wcdpd-settings.class.php:128
+#: classes/rp-wcdpd-settings.class.php:202
+#: classes/rp-wcdpd-settings.class.php:270
+msgid "Apply all applicable rules"
+msgstr "Aplicar todas as regras"
 
-#: views/settings/templates.php:69
-msgid "Loading data..."
-msgstr "Carregando dados..."
+#: classes/rp-wcdpd-settings.class.php:132
+msgid "Apply One - Per Cart Item"
+msgstr "Aplicar Uma - Por item do Carrinho"
 
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:65
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:65
-msgid "Macro {{description}} displays public description"
-msgstr "Macro {{description}} exibe descrição pública"
+#: classes/rp-wcdpd-settings.class.php:134
+#: classes/rp-wcdpd-settings.class.php:208
+#: classes/rp-wcdpd-settings.class.php:276
+msgid "Apply first applicable rule"
+msgstr "Aplicar a primeira regra aplicável"
 
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:65
-msgid "Macro {{description}} displays public description."
-msgstr "A macro {{description}} exibe uma descrição pública."
+#: classes/rp-wcdpd-settings.class.php:135
+msgid "Apply rule for smaller price"
+msgstr "Aplicar a regra para menor preço"
 
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:65
-msgid "Macro {{title}} displays discount title."
-msgstr "Macro {{title}} exibe o título do desconto."
+#: classes/rp-wcdpd-settings.class.php:136
+msgid "Apply rule for bigger price"
+msgstr "Aplicar a regra para maior preço"
 
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:65
-msgid "Macro {{title}} displays fee title."
-msgstr "A macro {{title}} exibe o título da taxa."
+#: classes/rp-wcdpd-settings.class.php:140
+#: classes/rp-wcdpd-settings.class.php:214
+#: classes/rp-wcdpd-settings.class.php:282
+#: classes/rp-wcdpd-settings.class.php:2155
+#: classes/rp-wcdpd-settings.class.php:2157
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:80
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:82
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:105
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:107
+msgid "Disabled"
+msgstr "Desativado"
 
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:83
-msgid "Message"
-msgstr "Mensagem"
+#: classes/rp-wcdpd-settings.class.php:142
+#: classes/rp-wcdpd-settings.class.php:216
+#: classes/rp-wcdpd-settings.class.php:284
+msgid "All rules disabled"
+msgstr "Todas as regras desativadas"
 
-#: views/settings/templates.php:94
-msgid "Method"
-msgstr "Método"
-
-#: extensions/promotion-countdown-timer/templates/countdown-timer.php:42
-msgid "MINUTES"
-msgstr "MINUTOS"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:87
-msgid "Minutes"
-msgstr "Minutos"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:94
-msgid "Modal"
-msgstr "Modal"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:96
-msgid "Modal - Horizontal"
-msgstr "Modal - Horizontal"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:97
-msgid "Modal - Vertical"
-msgstr "Modal - Vertical"
-
-#: classes/rp-wcdpd-settings.class.php:157
-#: classes/rp-wcdpd-settings.class.php:231
-msgid "No discount limit"
-msgstr "Sem limite de desconto"
-
-#: classes/rp-wcdpd-settings.class.php:299
-msgid "No fee limit"
-msgstr "Sem limite de taxa"
+#: classes/rp-wcdpd-settings.class.php:148
+#: classes/rp-wcdpd-settings.class.php:222
+#: classes/rp-wcdpd-settings.class.php:290
+msgid "Total limit"
+msgstr "Limite total"
 
 #: classes/rp-wcdpd-settings.class.php:155
 #: classes/rp-wcdpd-settings.class.php:229
@@ -1074,179 +414,10 @@ msgstr "Sem limite de taxa"
 msgid "No Limit"
 msgstr "Sem Limite"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:83
-msgid "No limit"
-msgstr "Sem limite"
-
-#: views/settings/templates.php:732
-msgid "No products in group."
-msgstr "Nenhum produto em grupo."
-
-#: views/settings/templates.php:645
-msgid "No quantity ranges."
-msgstr "Nenhum intervalo de quantidade."
-
-#: classes/rp-wcdpd-assets.class.php:205 classes/rp-wcdpd-assets.class.php:220
-msgid "No results found"
-msgstr "Nenhum resultado encontrado"
-
-#: views/settings/templates.php:19
-msgid "No rules configured."
-msgstr "Nenhuma regra configurada."
-
-#: classes/rp-wcdpd-assets.class.php:203
-msgid "No taxonomies enabled"
-msgstr "Nenhuma Taxonomia habilitada"
-
-#: classes/rp-wcdpd-settings.class.php:2144
-msgid "Non-Exclusive"
-msgstr "Não-Exclusivo"
-
-#: classes/rp-wcdpd-settings.class.php:436
-msgid "Not Taxable"
-msgstr "Não Tributável"
-
-#: views/settings/templates.php:130
-msgid "Note"
-msgstr "Nota"
-
-#: views/settings/preloader.php:30
-msgid ""
-"Note: User interface load time depends on a number of entries. Load time "
-"will increase by a fraction with each additional entry."
-msgstr ""
-"Nota: O tempo de carregamento da interface do usuário depende de uma série "
-"de entradas. O tempo de carga aumentará em uma fração com cada entrada "
-"adicional."
-
-#: classes/rp-wcdpd-settings.class.php:1274
-msgid "Notification message must not be empty."
-msgstr "A mensagem de notificação não deve estar vazia."
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:74
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:101
-msgid "Order total - After"
-msgstr "Total do pedido - Depois"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:73
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:100
-msgid "Order total - Before"
-msgstr "Total do pedido - Antes"
-
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-other.class.php:48
-msgid "Other"
-msgstr "Outro"
-
-#: rightpress-updates/rightpress-updates.class.php:1213
-msgid "other methods"
-msgstr "outros métodos"
-
-#: classes/rp-wcdpd-settings.class.php:2214
-msgid "Other product variations"
-msgstr "Outras variações de produtos"
-
-#: classes/rp-wcdpd-settings.class.php:2211
-msgid "Other Products"
-msgstr "Outros Produtos"
-
-#: classes/rp-wcdpd-settings.class.php:2213
-msgid "Other products"
-msgstr "Outros produtos"
-
-#: classes/rp-wcdpd-settings.class.php:2215
-msgid "Other products in categories"
-msgstr "Outros produtos em categorias"
-
-#: classes/rp-wcdpd-settings.class.php:2216
-msgid "Other products with attributes"
-msgstr "Outros produtos com atributos"
-
-#: classes/rp-wcdpd-settings.class.php:2217
-msgid "Other products with tags"
-msgstr "Outros produtos com tags"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:99
-msgid "Payment details - After"
-msgstr "Detalhes do pagamento - Depois"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:98
-msgid "Payment details - Before"
-msgstr "Detalhes do pagamento - Antes"
-
-#: classes/rp-wcdpd-assets.class.php:223
-msgid "per cart item"
-msgstr "por item do carrinho"
-
-#: classes/rp-wcdpd-assets.class.php:224
-msgid "per cart line"
-msgstr "por linha do carrinho"
-
-#: classes/rp-wcdpd-assets.class.php:225
-msgid "per group"
-msgstr "por grupo"
-
-#: classes/rp-wcdpd-assets.class.php:222
-msgid "per item"
-msgstr "por item"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-percentage.class.php:52
-msgid "Percentage discount"
-msgstr "Desconto percentual"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-discount-per-cart-item-percentage.class.php:52
-msgid "Percentage discount per cart item"
-msgstr "Desconto em porcentagem por item do carrinho"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-percentage.class.php:52
-msgid "Percentage fee"
-msgstr "Porcentagem de taxa"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fee-per-cart-item-percentage.class.php:52
-msgid "Percentage fee per cart item"
-msgstr "Porcentagem da taxa por item do carrinho"
-
-#: rightpress-updates/rightpress-updates.class.php:985
-msgid "Please change it and try again."
-msgstr "Por favor, altere-o e tente novamente."
-
-#: rightpress-updates/rightpress-updates.class.php:979
-msgid "Please fix it and try again."
-msgstr "Por favor, corrija e tente novamente."
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:61
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:61
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:67
-msgid "Position"
-msgstr "Posição"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:61
-msgid "Position in cart"
-msgstr "Posição no carrinho"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:88
-msgid "Position in checkout"
-msgstr "Posição na finalização"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:84
-msgid "Position on page"
-msgstr "Posição na página"
-
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:67
-#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:94
-msgid "Positions"
-msgstr "Posições"
-
-#: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fixed.class.php:48
-msgid "Price"
-msgstr "Preço"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:111
-msgid "Price & percentage"
-msgstr "Preço & porcentagem"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:115
-msgid "Price adjustments to include"
-msgstr "Ajustes de preço para incluir"
+#: classes/rp-wcdpd-settings.class.php:157
+#: classes/rp-wcdpd-settings.class.php:231
+msgid "No discount limit"
+msgstr "Sem limite de desconto"
 
 #: classes/rp-wcdpd-settings.class.php:161
 msgid "Price Discount Limit"
@@ -1260,299 +431,110 @@ msgstr "Limite de desconto de preço"
 msgid "Price discount limit %"
 msgstr "Limite de desconto de preço %"
 
-#: classes/rp-wcdpd-settings.class.php:786
-#: classes/rp-wcdpd-settings.class.php:787
-msgid "Pricing & Discounts"
-msgstr "Preços & Descontos"
+#: classes/rp-wcdpd-settings.class.php:168
+msgid "Total Discount Limit"
+msgstr "Limite Total de Desconto"
 
-#: classes/rp-wcdpd-assets.class.php:195
-msgid "Pricing Rule"
-msgstr "Regra de Preço"
+#: classes/rp-wcdpd-settings.class.php:170
+#: classes/rp-wcdpd-settings.class.php:237
+msgid "Total discount limit"
+msgstr "Limite total de desconto"
 
-#: views/settings/templates.php:130
-msgid "Private"
-msgstr "Privado"
+#: classes/rp-wcdpd-settings.class.php:176
+#: classes/rp-wcdpd-settings.class.php:244
+#: classes/rp-wcdpd-settings.class.php:312
+msgid "Total limit value"
+msgstr "Valor do limite total"
 
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:52
-msgid "Product Banners"
-msgstr "Banners de Produtos"
+#: classes/rp-wcdpd-settings.class.php:187
+#: classes/rp-wcdpd-settings.class.php:378
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:55
+msgid "Cart Discounts"
+msgstr "Descontos no Carrinho"
 
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:64
-msgid "Product discount has been applied to your cart."
-msgstr "Um desconto de produto foi aplicado em seu carrinho."
+#: classes/rp-wcdpd-settings.class.php:190
+msgid "Cart Discounts Settings"
+msgstr "Configuração de Descontos no Carrinho"
 
-#: views/settings/templates.php:292
-msgid "Product Group"
-msgstr "Grupo de Produtos"
+#: classes/rp-wcdpd-settings.class.php:206
+#: classes/rp-wcdpd-settings.class.php:274
+msgid "Apply One"
+msgstr "Aplicar Uma"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:69
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:70
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:75
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:97
-msgid "Product meta - After"
-msgstr "Meta do Produto - Depois"
+#: classes/rp-wcdpd-settings.class.php:209
+msgid "Apply bigger discount"
+msgstr "Aplicar o desconto maior"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:68
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:69
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:74
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:96
-msgid "Product meta - Before"
-msgstr "Meta do Produto - Antes"
+#: classes/rp-wcdpd-settings.class.php:210
+msgid "Apply smaller discount"
+msgstr "Aplicar o desconto menor"
 
-#: classes/rp-wcdpd-settings.class.php:113
-#: classes/rp-wcdpd-settings.class.php:331
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:55
-msgid "Product Pricing"
-msgstr "Preço do Produto"
+#: classes/rp-wcdpd-settings.class.php:235
+#: classes/rp-wcdpd-settings.class.php:303
+msgid "Total Limit"
+msgstr "Limite Total"
 
-#: classes/rp-wcdpd-settings.class.php:116
-msgid "Product Pricing Settings"
-msgstr "Configurações de Preços dos Produtos"
+#: classes/rp-wcdpd-settings.class.php:238
+msgid "Total discount limit %"
+msgstr "Limite total de desconto %"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:71
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:72
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:77
-msgid "Product summary - After"
-msgstr "Resumo do produto - Depois"
+#: classes/rp-wcdpd-settings.class.php:255
+#: classes/rp-wcdpd-settings.class.php:411
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:55
+msgid "Checkout Fees"
+msgstr "Taxas de Finalização"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:70
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:71
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:76
-msgid "Product summary - Before"
-msgstr "Resumo do produto - Antes"
+#: classes/rp-wcdpd-settings.class.php:258
+msgid "Checkout Fees Settings"
+msgstr "Configurações de Taxas de Finalização"
 
-#: views/settings/templates.php:310
-msgid "Products"
-msgstr "Produtos"
+#: classes/rp-wcdpd-settings.class.php:277
+msgid "Apply bigger fee"
+msgstr "Aplicar a taxa maior"
 
-#: views/settings/templates.php:311
-msgid "Products - Buy"
-msgstr "Produtos - Comprar"
+#: classes/rp-wcdpd-settings.class.php:278
+msgid "Apply smaller fee"
+msgstr "Aplicar a taxa menor"
 
-#: views/settings/templates.php:328
-msgid "Products - Get"
-msgstr "Produtos - Levar"
+#: classes/rp-wcdpd-settings.class.php:299
+msgid "No fee limit"
+msgstr "Sem limite de taxa"
+
+#: classes/rp-wcdpd-settings.class.php:305
+msgid "Total fee limit"
+msgstr "Limite total de taxa"
+
+#: classes/rp-wcdpd-settings.class.php:306
+msgid "Total fee limit %"
+msgstr "Limite total de taxa %"
 
 #: classes/rp-wcdpd-settings.class.php:323
 #: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:78
 msgid "Promotion"
 msgstr "Promoção"
 
-#: views/settings/templates.php:106 views/settings/templates.php:145
-msgid "Public"
-msgstr "Público"
-
-#: rightpress-updates/rightpress-updates.class.php:586
-#: rightpress-updates/rightpress-updates.class.php:928
-msgid "Purchase Code"
-msgstr "Código de Compra"
-
-#: rightpress-updates/rightpress-updates.class.php:719
-#: rightpress-updates/rightpress-updates.class.php:985
-msgid "Purchase Code belongs to another product."
-msgstr "Código de compra pertence a outro produto."
-
-#: rightpress-updates/rightpress-updates.class.php:703
-msgid "Purchase Code format is invalid."
-msgstr "O formato do código de compra é inválido."
-
-#: rightpress-updates/rightpress-updates.class.php:975
-msgid "Purchase Code has been successfully reset."
-msgstr "O código de compra foi reiniciado com sucesso."
-
-#: rightpress-updates/rightpress-updates.class.php:971
-msgid "Purchase Code has been successfully updated."
-msgstr "O código de compra foi atualizado com sucesso."
-
-#: rightpress-updates/rightpress-updates.class.php:715
-#: rightpress-updates/rightpress-updates.class.php:979
-msgid "Purchase Code is not valid."
-msgstr "Código de Compra não é válido."
-
-#: views/settings/templates.php:119
-msgid "Quantities"
-msgstr "Quantidades"
-
-#: views/settings/templates.php:157
-msgid "Quantities & Discount"
-msgstr "Quantidades & Desconto"
-
-#: views/settings/templates.php:165 views/settings/templates.php:176
-msgid "Quantity"
-msgstr "Quantidade"
-
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:63
-msgid "Quantity discounts"
-msgstr "Descontos por Quantidade"
-
-#: classes/rp-wcdpd-assets.class.php:238
-msgid ""
-"Quantity range cannot be left open when adding subsequent quantity ranges."
-msgstr ""
-"O intervalo de quantidades não pode ser deixado aberto ao adicionar "
-"intervalos de quantidades subsequentes."
-
-#: classes/rp-wcdpd-assets.class.php:239
-msgid ""
-"Quantity range must start with a higher value than previous quantity range."
-msgstr ""
-"O intervalo de quantidades deve começar com um valor mais alto que o "
-"intervalo de quantidades anterior."
-
-#: views/settings/templates.php:213
-msgid "Quantity Ranges"
-msgstr "Faixas de Quantidade"
-
-#: classes/rp-wcdpd-assets.class.php:240
-msgid "Quantity ranges must not overlap."
-msgstr "As Faixas de Quantidade não devem se sobrepor."
-
-#: classes/rp-wcdpd-settings.class.php:352
-msgid "Regular price"
-msgstr "Preço normal"
-
-#: rightpress-updates/rightpress-updates.class.php:1213
-msgid "renew"
-msgstr "renovar"
-
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:101
-#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:103
-msgid "Replace main price"
-msgstr "Substituir preço principal"
-
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-other-restrict-purchase.class.php:59
-msgid "Restrict purchase of matched products"
-msgstr "Restringir a compra de produtos correspondentes"
-
-#: classes/methods/rp-wcdpd-controller-methods-cart-discount.class.php:220
-msgid "RightPress fixed cart discount"
-msgstr "Desconto fixo no carrinho"
-
-#: rightpress-updates/rightpress-updates.class.php:1213
-#, php-format
-msgid "RightPress no longer serves automatic updates as your %s has expired."
-msgstr ""
-"O RightPress não fornece mais atualizações automáticas, pois seu %s expirou."
-
-#: rp_wcdpd.class.php:384 rp_wcdpd.class.php:396 rp_wcdpd.class.php:408
-#: rp_wcdpd.class.php:420 views/settings/preloader.php:26
-msgid "RightPress Support"
-msgstr "Suporte do RightPress"
-
-#: classes/rp-wcdpd-assets.class.php:241
-msgid "Rule must not contain conditions of non-existent type."
-msgstr "A regra não deve conter condições do tipo inexistente."
-
-#: classes/rp-wcdpd-assets.class.php:242
-msgid "Rule must not contain disabled conditions."
-msgstr "A regra não deve conter condições desativadas."
-
-#: classes/rp-wcdpd-settings.class.php:119
-#: classes/rp-wcdpd-settings.class.php:193
-#: classes/rp-wcdpd-settings.class.php:261
-msgid "Rule selection method"
-msgstr "Método de seleção de regras"
-
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:57
-msgid "SALE ENDS IN"
-msgstr "OFERTA TERMINA EM"
-
-#: classes/rp-wcdpd-settings.class.php:351
-msgid "Sale price"
-msgstr "Preço de oferta"
-
-#: classes/rp-wcdpd-settings.class.php:2207
-msgid "Same as products at full price"
-msgstr "Igual aos produtos com preço normal"
-
-#: classes/rp-wcdpd-settings.class.php:2204
-msgid "Same Products"
-msgstr "Mesmos Produtos"
-
-#: extensions/promotion-countdown-timer/templates/countdown-timer.php:47
-msgid "SECONDS"
-msgstr "SEGUNDOS"
-
-#: classes/rp-wcdpd-assets.class.php:204 classes/rp-wcdpd-assets.class.php:219
-msgid "Select values"
-msgstr "Selecione os valores"
-
-#: classes/rp-wcdpd-settings.class.php:328 rp_wcdpd.class.php:439
+#: classes/rp-wcdpd-settings.class.php:328
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:680
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:681
+#: rp_wcdpd.class.php:446
 msgid "Settings"
 msgstr "Configurações"
 
-#: classes/rp-wcdpd-settings.class.php:1307
-msgid "Settings updated."
-msgstr "Configurações atualizadas."
+#: classes/rp-wcdpd-settings.class.php:334
+msgid "Change display prices in shop"
+msgstr "Altere a exibição de preços na loja"
 
-#: classes/rp-wcdpd-settings.class.php:2578
-msgid "Settings were successfully imported."
-msgstr "Configurações importadas com sucesso."
+#: classes/rp-wcdpd-settings.class.php:339
+msgid "Do not change"
+msgstr "Não modificar"
 
-#: classes/methods/methods/rp-wcdpd-method-cart-discount-simple.class.php:54
-#: classes/methods/methods/rp-wcdpd-method-checkout-fee-simple.class.php:54
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-simple.class.php:54
-msgid "Simple"
-msgstr "Simples"
+#: classes/rp-wcdpd-settings.class.php:340
+msgid "Change - Include simple adjustments"
+msgstr "Modificar - Incluir ajustes simples"
 
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-simple.class.php:65
-msgid "Simple adjustment"
-msgstr "Ajuste simples"
-
-#: classes/methods/methods/rp-wcdpd-method-cart-discount-simple.class.php:65
-msgid "Simple discount"
-msgstr "Desconto simples"
-
-#: classes/methods/methods/rp-wcdpd-method-checkout-fee-simple.class.php:65
-msgid "Simple fee"
-msgstr "Taxa simples"
-
-#: classes/rp-wcdpd-wc-cart.class.php:292
-#, php-format
-msgid "Sorry, coupon \"%s\" is not valid when cart item prices are changed."
-msgstr ""
-"Desculpe, o cupom \"%s\" não é válido quando os preços dos itens do carrinho "
-"são alterados."
-
-#: classes/rp-wcdpd-wc-cart.class.php:60 classes/rp-wcdpd-wc-cart.class.php:289
-#, php-format
-msgid ""
-"Sorry, coupon \"%s\" is not valid when other discounts are applied to the "
-"cart."
-msgstr ""
-"Desculpe, o cupom \"%s\" não é válido quando outros descontos são aplicados "
-"ao carrinho."
-
-#: rightpress-updates/rightpress-updates.class.php:592
-msgid "Submit"
-msgstr "Enviar"
-
-#: rp_wcdpd.class.php:434
-msgid "Support"
-msgstr "Suporte"
-
-#: rightpress-updates/rightpress-updates.class.php:1213
-msgid "support subscription"
-msgstr "assinatura de suporte"
-
-#: classes/rp-wcdpd-settings.class.php:432
-msgid "Tax class"
-msgstr "Classe de Taxa"
-
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:60
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:60
-#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:60
-msgid "Text"
-msgstr "Texto"
-
-#: rightpress-updates/rightpress-updates.class.php:569
-#, php-format
-msgid ""
-"There is a new version of %s available. To enable automatic updates, enter "
-"your CodeCanyon Purchase Code below."
-msgstr ""
-"Há uma nova versão de %s disponível. Para habilitar atualizações "
-"automáticas, insira seu Código de Compra CodeCanyon abaixo."
+#: classes/rp-wcdpd-settings.class.php:341
+msgid "Change - Include all adjustment types"
+msgstr "Modificar - Incluir todos os tipos de ajustes"
 
 #: classes/rp-wcdpd-settings.class.php:343
 msgid ""
@@ -1563,6 +545,35 @@ msgstr ""
 "com condições complexas podem confundir clientes quando os preços mudam "
 "inesperadamente."
 
+#: classes/rp-wcdpd-settings.class.php:346
+msgid "Base price for products on sale"
+msgstr "Preço base para os produtos em oferta"
+
+#: classes/rp-wcdpd-settings.class.php:351
+msgid "Sale price"
+msgstr "Preço de oferta"
+
+#: classes/rp-wcdpd-settings.class.php:352
+msgid "Regular price"
+msgstr "Preço normal"
+
+#: classes/rp-wcdpd-settings.class.php:353
+msgid "Exclude products already on sale"
+msgstr "Excluir os produtos que já estão em oferta"
+
+#: classes/rp-wcdpd-settings.class.php:355
+msgid ""
+"Affects products with a sale price set in product settings. Setting this to "
+"regular price may override price adjustments made by other plugins."
+msgstr ""
+"Afeta produtos com um preço de oferta definido nas configurações do produto. "
+"Definir isso como preço normal pode substituir os ajustes de preço feitos "
+"por outros plugins."
+
+#: classes/rp-wcdpd-settings.class.php:358
+msgid "Automatically add free product to cart"
+msgstr "Adicione automaticamente o produto grátis ao carrinho"
+
 #: classes/rp-wcdpd-settings.class.php:361
 msgid ""
 "This only works with Buy X Get Y rules when all properties of a free product "
@@ -1572,127 +583,142 @@ msgstr ""
 "de um produto gratuito são conhecidas - produto específico ou variação "
 "específica deve ser selecionado."
 
-#: views/settings/preloader.php:26
-#, php-format
+#: classes/rp-wcdpd-settings.class.php:364
+msgid "Display regular price when discounting"
+msgstr "Exibir o preço normal ao descontar"
+
+#: classes/rp-wcdpd-settings.class.php:367
 msgid ""
-"This plugin uses a JavaScript-driven user interface. If this notice does not "
-"disappear in a few seconds, you should check Console for any JavaScript "
-"errors or get in touch with %s."
+"Controls whether regular price is displayed next to adjusted price on shop "
+"pages."
 msgstr ""
-"Este plugin usa uma interface de usuário orientada a JavaScript. Se este "
-"aviso não desaparecer em alguns segundos, você deve verificar o Console para "
-"quaisquer erros de JavaScript ou entrar em contato com %s."
+"Controla se o preço normal é exibido próximo ao preço ajustado nas páginas "
+"da loja."
 
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-volume-tiered.class.php:51
-msgid "Tiered pricing"
-msgstr "Níveis de preços"
+#: classes/rp-wcdpd-settings.class.php:370
+msgid "Allow coupons when prices are changed"
+msgstr "Permitir cupons quando os preços forem alterados"
 
-#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:75
-msgid "Time left less than"
-msgstr "Tempo restante menor que"
-
-#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:76
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:61
-#: views/settings/templates.php:106
-msgid "Title"
-msgstr "Título"
-
-#: views/settings/templates.php:682
-msgid "To - No limit"
-msgstr "Até - Sem limite"
-
-#: classes/rp-wcdpd-settings.class.php:168
-msgid "Total Discount Limit"
-msgstr "Limite Total de Desconto"
-
-#: classes/rp-wcdpd-settings.class.php:170
-#: classes/rp-wcdpd-settings.class.php:237
-msgid "Total discount limit"
-msgstr "Limite total de desconto"
-
-#: classes/rp-wcdpd-settings.class.php:238
-msgid "Total discount limit %"
-msgstr "Limite total de desconto %"
-
-#: classes/rp-wcdpd-settings.class.php:305
-msgid "Total fee limit"
-msgstr "Limite total de taxa"
-
-#: classes/rp-wcdpd-settings.class.php:306
-msgid "Total fee limit %"
-msgstr "Limite total de taxa %"
-
-#: classes/rp-wcdpd-settings.class.php:235
-#: classes/rp-wcdpd-settings.class.php:303
-msgid "Total Limit"
-msgstr "Limite Total"
-
-#: classes/rp-wcdpd-settings.class.php:148
-#: classes/rp-wcdpd-settings.class.php:222
-#: classes/rp-wcdpd-settings.class.php:290
-msgid "Total limit"
-msgstr "Limite total"
-
-#: classes/rp-wcdpd-settings.class.php:176
-#: classes/rp-wcdpd-settings.class.php:244
-#: classes/rp-wcdpd-settings.class.php:312
-msgid "Total limit value"
-msgstr "Valor do limite total"
-
-#: classes/rp-wcdpd-settings.class.php:1186
-msgid "Unable to validate settings."
-msgstr "Não foi possível validar as configurações."
-
-#: rightpress-updates/rightpress-updates.class.php:711
-#: rightpress-updates/rightpress-updates.class.php:991
-msgid "Unable to verify Purchase Code right now. Please try again later."
+#: classes/rp-wcdpd-settings.class.php:373
+msgid ""
+"Controls whether regular coupons are allowed if at least one product pricing "
+"rule is applicable to cart items."
 msgstr ""
-"Não foi possível verificar o Código de Compra agora. Por favor, tente "
-"novamente mais tarde."
+"Controla se cupons regulares são permitidos se pelo menos uma regra de "
+"precificação de produto for aplicável aos itens do carrinho."
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:136
-msgid "Undefined quantity handling"
-msgstr "Manipulação de quantidade indefinida"
+#: classes/rp-wcdpd-settings.class.php:381
+msgid "If multiple discounts are applicable"
+msgstr "Se vários descontos forem aplicáveis"
 
-#: extensions/promotion-upsell-notifications/rp-wcdpd-promotion-upsell-notifications.class.php:49
-msgid "Upsell Notifications"
-msgstr "Notificações Upsell"
+#: classes/rp-wcdpd-settings.class.php:386
+msgid "Display all individual discounts"
+msgstr "Exibir todos os descontos individuais"
 
-#: views/settings/preloader.php:22
-msgid "User Interface Loading"
-msgstr "Carregando interface do usuário"
+#: classes/rp-wcdpd-settings.class.php:387
+msgid "Combine to one total discount"
+msgstr "Combine um desconto total"
 
-#: classes/rp-wcdpd-assets.class.php:229
-msgid "Value is required."
-msgstr "O valor é obrigatório."
+#: classes/rp-wcdpd-settings.class.php:391
+msgid "Combined discount title"
+msgstr "Título do desconto combinado"
 
-#: classes/rp-wcdpd-assets.class.php:233
-msgid "Value must be a whole number."
-msgstr "O valor deve ser um número inteiro."
+#: classes/rp-wcdpd-settings.class.php:397
+msgid "Apply with individual use coupons"
+msgstr "Aplicar com cupons de uso individual"
 
-#: classes/rp-wcdpd-assets.class.php:232
-msgid "Value must be greater than or equal to 1."
-msgstr "O valor deve ser maior ou igual a 1."
+#: classes/rp-wcdpd-settings.class.php:400
+msgid ""
+"Controls whether cart discounts should be applied if individual use coupon "
+"is applied to cart."
+msgstr ""
+"Controla se os descontos do carrinho devem ser aplicados se o cupom de uso "
+"individual for aplicado ao carrinho."
 
-#: classes/rp-wcdpd-assets.class.php:230 classes/rp-wcdpd-assets.class.php:231
-msgid "Value must be positive."
-msgstr "O valor deve ser positivo."
+#: classes/rp-wcdpd-settings.class.php:403
+msgid "Allow coupons with cart discounts"
+msgstr "Permitir cupons com descontos no carrinho"
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:103
-msgid "Value to display"
-msgstr "Valor para exibir"
+#: classes/rp-wcdpd-settings.class.php:406
+msgid ""
+"Controls whether regular coupons are allowed if at least one cart discount "
+"is applicable to cart."
+msgstr ""
+"Controla se cupons regulares são permitidos se pelo menos um desconto de "
+"carrinho for aplicável ao carrinho."
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:126
-msgid "Variable product handling"
-msgstr "Manuseio de produto variável"
+#: classes/rp-wcdpd-settings.class.php:414
+msgid "If multiple fees are applicable"
+msgstr "Se múltiplas taxas forem aplicáveis"
 
-#: classes/methods/methods/rp-wcdpd-method-product-pricing-volume.class.php:48
-msgid "Volume"
-msgstr "Volume"
+#: classes/rp-wcdpd-settings.class.php:419
+msgid "Display all individual fees"
+msgstr "Exibir todas as taxas individuais"
 
-#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:52
-msgid "Volume Pricing Table"
-msgstr "Tabela de Preços por Volume"
+#: classes/rp-wcdpd-settings.class.php:420
+msgid "Combine to one total fee"
+msgstr "Combine uma taxa total"
+
+#: classes/rp-wcdpd-settings.class.php:426
+msgid "Combined fee title"
+msgstr "Título do imposto combinado"
+
+#: classes/rp-wcdpd-settings.class.php:432
+msgid "Tax class"
+msgstr "Classe de Taxa"
+
+#: classes/rp-wcdpd-settings.class.php:436
+msgid "Not Taxable"
+msgstr "Não Tributável"
+
+#: classes/rp-wcdpd-settings.class.php:441 views/settings/templates.php:343
+msgid "Conditions"
+msgstr "Condições"
+
+#: classes/rp-wcdpd-settings.class.php:444
+msgid "Enabled custom taxonomy conditions"
+msgstr "Habilitar condições de taxonomias personalizadas"
+
+#: classes/rp-wcdpd-settings.class.php:448
+msgid ""
+"Allows integration with 3rd party extensions that add custom product "
+"taxonomies, e.g. product brands."
+msgstr ""
+"Permite a integração com extensões de terceiros que adicionam taxonomias de "
+"produtos personalizados, exemplo: marcas de produtos."
+
+#: classes/rp-wcdpd-settings.class.php:453
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1641
+msgid "Import & Export"
+msgstr "Importar & Exportar"
+
+#: classes/rp-wcdpd-settings.class.php:456
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1647
+msgid "Import settings"
+msgstr "Importar Configurações"
+
+#: classes/rp-wcdpd-settings.class.php:459
+msgid ""
+"Warning! Importing settings will irrecoverably overwrite your existing "
+"settings, including any pricing rules, discounts and fees."
+msgstr ""
+"Atenção! As configurações de importação irão substituir de forma irreparável "
+"suas configurações existentes, incluindo quaisquer regras de preços, "
+"descontos e taxas."
+
+#: classes/rp-wcdpd-settings.class.php:462
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1654
+msgid "Export settings"
+msgstr "Exportar Configurações"
+
+#: classes/rp-wcdpd-settings.class.php:464
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1655
+msgid "Click here to export"
+msgstr "Clique aqui para exportar"
+
+#: classes/rp-wcdpd-settings.class.php:476
+msgid "Amounts in conditions include tax"
+msgstr "Os valores nas condições incluem impostos"
 
 #: classes/rp-wcdpd-settings.class.php:484
 msgid ""
@@ -1704,45 +730,2109 @@ msgstr ""
 "impostos quando descontos percentuais são usados e diferentes taxas de "
 "impostos são aplicadas a diferentes itens do carrinho."
 
-#: classes/rp-wcdpd-settings.class.php:459
-msgid ""
-"Warning! Importing settings will irrecoverably overwrite your existing "
-"settings, including any pricing rules, discounts and fees."
-msgstr ""
-"Atenção! As configurações de importação irão substituir de forma irreparável "
-"suas configurações existentes, incluindo quaisquer regras de preços, "
-"descontos e taxas."
+#: classes/rp-wcdpd-settings.class.php:786
+#: classes/rp-wcdpd-settings.class.php:787
+msgid "Pricing & Discounts"
+msgstr "Preços & Descontos"
 
-#: rightpress-updates/rightpress-updates.class.php:598
-#: rightpress-updates/rightpress-updates.class.php:1209
-msgid "Where do I find my Purchase Code?"
-msgstr "Onde posso encontrar meu código de compra?"
+#: classes/rp-wcdpd-settings.class.php:1184
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1272
+msgid "Unable to validate settings."
+msgstr "Não foi possível validar as configurações."
 
-#: rightpress-updates/rightpress-updates.class.php:1213
+#: classes/rp-wcdpd-settings.class.php:1272
+msgid "Notification message must not be empty."
+msgstr "A mensagem de notificação não deve estar vazia."
+
+#: classes/rp-wcdpd-settings.class.php:1305
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1296
+msgid "Settings updated."
+msgstr "Configurações atualizadas."
+
+#: classes/rp-wcdpd-settings.class.php:2084
+msgid "Individual"
+msgstr "Individual"
+
+#: classes/rp-wcdpd-settings.class.php:2086
+msgid "Individual product"
+msgstr "Produto Individual"
+
+#: classes/rp-wcdpd-settings.class.php:2087
+msgid "Individual variation"
+msgstr "Variação Individual"
+
+#: classes/rp-wcdpd-settings.class.php:2088
+msgid "Individual cart item"
+msgstr "Item individual no carrinho"
+
+#: classes/rp-wcdpd-settings.class.php:2092
+msgid "Added Up"
+msgstr "Adicionado"
+
+#: classes/rp-wcdpd-settings.class.php:2094
+msgid "Added up"
+msgstr "Adicionado"
+
+#: classes/rp-wcdpd-settings.class.php:2095
+msgid "Added up by category"
+msgstr "Adicionado por categoria"
+
+#: classes/rp-wcdpd-settings.class.php:2142
+msgid "Non-Exclusive"
+msgstr "Não-Exclusivo"
+
+#: classes/rp-wcdpd-settings.class.php:2144
+msgid "Apply with other applicable rules"
+msgstr "Aplicar com outras regras aplicáveis"
+
+#: classes/rp-wcdpd-settings.class.php:2148
+msgid "Exclusive - Per Cart Item"
+msgstr "Exclusivo - Por item do carrinho"
+
+#: classes/rp-wcdpd-settings.class.php:2148
+msgid "Exclusive"
+msgstr "Exclusivo"
+
+#: classes/rp-wcdpd-settings.class.php:2150
+msgid "Apply this rule and disregard other rules"
+msgstr "Aplicar apenas esta regra e desconsiderar outras regras"
+
+#: classes/rp-wcdpd-settings.class.php:2151
+msgid "Apply if other rules are not applicable"
+msgstr "Aplicar se não existirem outras regras aplicáveis"
+
+#: classes/rp-wcdpd-settings.class.php:2202
+msgid "Same Products"
+msgstr "Mesmos Produtos"
+
+#: classes/rp-wcdpd-settings.class.php:2205
+msgid "Same as products at full price"
+msgstr "Igual aos produtos com preço normal"
+
+#: classes/rp-wcdpd-settings.class.php:2209
+msgid "Other Products"
+msgstr "Outros Produtos"
+
+#: classes/rp-wcdpd-settings.class.php:2211
+msgid "Other products"
+msgstr "Outros produtos"
+
+#: classes/rp-wcdpd-settings.class.php:2212
+msgid "Other product variations"
+msgstr "Outras variações de produtos"
+
+#: classes/rp-wcdpd-settings.class.php:2213
+msgid "Other products in categories"
+msgstr "Outros produtos em categorias"
+
+#: classes/rp-wcdpd-settings.class.php:2214
+msgid "Other products with attributes"
+msgstr "Outros produtos com atributos"
+
+#: classes/rp-wcdpd-settings.class.php:2215
+msgid "Other products with tags"
+msgstr "Outros produtos com tags"
+
+#: classes/rp-wcdpd-settings.class.php:2576
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1771
+msgid "Settings were successfully imported."
+msgstr "Configurações importadas com sucesso."
+
+#: classes/rp-wcdpd-settings.class.php:2586
+msgid "Error: Uploaded configuration file is not valid."
+msgstr "Erro: o arquivo de configuração carregado não é válido."
+
+#: classes/rp-wcdpd-wc-cart.class.php:60 classes/rp-wcdpd-wc-cart.class.php:289
 #, php-format
 msgid ""
-"You can %1$s your support subscription or use %2$s to keep this plugin "
-"updated."
+"Sorry, coupon \"%s\" is not valid when other discounts are applied to the "
+"cart."
 msgstr ""
-"Você pode %1$s sua assinatura de suporte ou usar %2$s para manter este "
-"plugin atualizado."
+"Desculpe, o cupom \"%s\" não é válido quando outros descontos são aplicados "
+"ao carrinho."
 
-#: rightpress-updates/rightpress-updates.class.php:1209
+#: classes/rp-wcdpd-wc-cart.class.php:292
 #, php-format
-msgid "You must enter your Purchase Code %s to enable automatic updates."
+msgid "Sorry, coupon \"%s\" is not valid when cart item prices are changed."
 msgstr ""
-"Você deve inserir seu código de compra %s para habilitar atualizações "
-"automáticas."
+"Desculpe, o cupom \"%s\" não é válido quando os preços dos itens do carrinho "
+"são alterados."
+
+#: classes/rp-wcdpd-wc-order.class.php:80
+msgid "Cart Discount (deleted)"
+msgstr "Desconto no carrinho (excluído)"
+
+#: extensions/promotion-cart-item-descriptions/rp-wcdpd-promotion-cart-item-descriptions.class.php:48
+msgid "Cart Item Descriptions"
+msgstr "Descrições dos itens do carrinho"
+
+#: extensions/promotion-cart-item-descriptions/rp-wcdpd-promotion-cart-item-descriptions.class.php:49
+msgid ""
+"Displays public descriptions of product pricing rules that are applicable to "
+"cart items."
+msgstr ""
+"Exibe descrições públicas das regras de precificação de produtos aplicáveis "
+"aos itens do carrinho."
+
+#: extensions/promotion-cart-item-descriptions/rp-wcdpd-promotion-cart-item-descriptions.class.php:52
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:50
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:56
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:50
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:56
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:64
+msgid "Enable"
+msgstr "Habilitar"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:46
+msgid "Countdown Timer"
+msgstr "Contagem Regressiva"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:47
+msgid "Displays a countdown timer for time restricted pricing rules."
+msgstr ""
+"Exibe uma contagem regressiva para regras de precificação com restrição de "
+"tempo."
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:55
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:55
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:109
+msgid "Label"
+msgstr "Etiqueta"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:57
+msgid "SALE ENDS IN"
+msgstr "OFERTA TERMINA EM"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:61
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:61
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:67
+msgid "Position"
+msgstr "Posição"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:66
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:67
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:72
+msgid "Add to cart - Before"
+msgstr "Adicionar ao carrinho - Antes"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:67
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:68
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:73
+msgid "Add to cart - After"
+msgstr "Adicionar ao carrinho - Depois"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:68
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:69
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:74
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:96
+msgid "Product meta - Before"
+msgstr "Meta do Produto - Antes"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:69
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:70
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:75
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:97
+msgid "Product meta - After"
+msgstr "Meta do Produto - Depois"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:70
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:71
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:76
+msgid "Product summary - Before"
+msgstr "Resumo do produto - Antes"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:71
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:72
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:77
+msgid "Product summary - After"
+msgstr "Resumo do produto - Depois"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:75
+msgid "Time left less than"
+msgstr "Tempo restante menor que"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:83
+msgid "No limit"
+msgstr "Sem limite"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:87
+msgid "Minutes"
+msgstr "Minutos"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:89
+msgid "5 minutes"
+msgstr "5 minút"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:90
+msgid "15 minutes"
+msgstr "15 minutos"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:91
+msgid "30 minutes"
+msgstr "30 minutos"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:92
+msgid "45 minutes"
+msgstr "45 minutos"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:96
+msgid "Hours"
+msgstr "Horas"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:98
+msgid "1 hour"
+msgstr "1 hora"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:99
+msgid "2 hours"
+msgstr "2 horas"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:100
+msgid "3 hours"
+msgstr "3 horas"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:101
+msgid "6 hours"
+msgstr "6 horas"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:102
+msgid "12 hours"
+msgstr "12 horas"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:106
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:97
+msgid "Days"
+msgstr "Dias"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:108
+msgid "1 day"
+msgstr "1 dia"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:109
+msgid "2 days"
+msgstr "2 dias"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:110
+msgid "3 days"
+msgstr "3 dias"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:111
+msgid "4 days"
+msgstr "4 dias"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:112
+msgid "5 days"
+msgstr "5 dias"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:113
+msgid "6 days"
+msgstr "6 dias"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:114
+msgid "7 days"
+msgstr "7 dias"
+
+#: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:115
+msgid "14 days"
+msgstr "14 dias"
+
+#: extensions/promotion-countdown-timer/templates/countdown-timer.php:32
+msgid "DAYS"
+msgstr "DIAS"
+
+#: extensions/promotion-countdown-timer/templates/countdown-timer.php:37
+msgid "HOURS"
+msgstr "HORAS"
+
+#: extensions/promotion-countdown-timer/templates/countdown-timer.php:42
+msgid "MINUTES"
+msgstr "MINUTOS"
+
+#: extensions/promotion-countdown-timer/templates/countdown-timer.php:47
+msgid "SECONDS"
+msgstr "SEGUNDOS"
+
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:52
+msgid "Product Banners"
+msgstr "Banners de Produtos"
+
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:53
+msgid ""
+"Displays banners on product pages when product pricing rules are applicable. "
+"Banners can be customized using CSS styling, template overrides or filters."
+msgstr ""
+"Exibe banners nas páginas dos produtos quando as regras de precificação do "
+"produto são aplicáveis. Os banners podem ser personalizados usando estilo "
+"CSS, substituições de modelos ou filtros."
+
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:76
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:61
+#: views/settings/templates.php:106
+msgid "Title"
+msgstr "Título"
+
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:83
+msgid "Message"
+msgstr "Mensagem"
+
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:87
+msgid "Add this product to cart now to get a special price."
+msgstr ""
+"Adicione este produto ao carrinho agora para ganhar um desconto especial."
+
+#: extensions/promotion-product-banners/rp-wcdpd-promotion-product-banners.class.php:88
+msgid ""
+"Available macros: {{price}} , {{original_price}} , {{description}} . The "
+"latter displays public description as set in pricing rule."
+msgstr ""
+"Macros disponíveis: {{price}} , {{original_price}} , {{description}} . Este "
+"último exibe a descrição pública conforme definido na regra de preço."
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:60
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:60
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:60
+msgid "Text"
+msgstr "Texto"
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:64
+#, php-format
+msgid "Discount %s has been applied to your cart."
+msgstr "O desconto %s foi aplicado ao seu carrinho."
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:65
+msgid "Macro {{title}} displays discount title."
+msgstr "Macro {{title}} exibe o título do desconto."
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-cart-discounts.class.php:65
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:65
+msgid "Macro {{description}} displays public description"
+msgstr "Macro {{description}} exibe descrição pública"
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:64
+#, php-format
+msgid "Fee %s has been applied to your cart."
+msgstr "A taxa %s foi aplicada ao seu carrinho."
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-checkout-fees.class.php:65
+msgid "Macro {{title}} displays fee title."
+msgstr "A macro {{title}} exibe o título da taxa."
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:64
+msgid "Product discount has been applied to your cart."
+msgstr "Um desconto de produto foi aplicado em seu carrinho."
+
+#: extensions/promotion-rule-notifications/classes/rp-wcdpd-rule-notifications-product-pricing.class.php:65
+msgid "Macro {{description}} displays public description."
+msgstr "A macro {{description}} exibe uma descrição pública."
+
+#: extensions/promotion-rule-notifications/rp-wcdpd-promotion-rule-notifications.class.php:50
+msgid "Customer Notifications"
+msgstr "Notificações do Cliente"
+
+#: extensions/promotion-rule-notifications/rp-wcdpd-promotion-rule-notifications.class.php:51
+msgid ""
+"Displays a notification when pricing rule, cart discount or checkout fee is "
+"applied."
+msgstr ""
+"Exibe uma notificação quando a regra de preços, desconto do carrinho ou taxa "
+"de pagamento é aplicada."
 
 #: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:46
 #: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:57
 msgid "You Saved"
 msgstr "Economia: "
 
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:47
+msgid "Displays a total amount saved by customer on cart and checkout pages."
+msgstr ""
+"Exibe o valor total economizado pelo cliente no carrinho e páginas de "
+"finalização."
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:61
+msgid "Position in cart"
+msgstr "Posição no carrinho"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:67
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:94
+msgid "Positions"
+msgstr "Posições"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:69
+msgid "Cart table - Before"
+msgstr "Tabela do Carrinho - Antes"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:70
+msgid "Cart table - After"
+msgstr "Tabela do Carrinho - Depois"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:71
+msgid "Cart totals - Before"
+msgstr "Totais do Carrinho - Antes"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:72
+msgid "Cart totals - After"
+msgstr "Totais do Carrinho - Depois"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:73
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:100
+msgid "Order total - Before"
+msgstr "Total do pedido - Antes"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:74
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:101
+msgid "Order total - After"
+msgstr "Total do pedido - Depois"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:75
+msgid "Checkout button - Before"
+msgstr "Botão Finalizar Compra - Antes"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:76
+msgid "Checkout button - After"
+msgstr "Botão Finalizar Compra - Depois"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:88
+msgid "Position in checkout"
+msgstr "Posição na finalização"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:96
+msgid "Checkout form - Before"
+msgstr "Formulário de finalização - Antes"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:97
+msgid "Checkout form - After"
+msgstr "Formulário de finalização - Depois"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:98
+msgid "Payment details - Before"
+msgstr "Detalhes do pagamento - Antes"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:99
+msgid "Payment details - After"
+msgstr "Detalhes do pagamento - Depois"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:113
+msgid "Discount amount threshold"
+msgstr "Limite do valor de desconto"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:115
+msgid "0.01"
+msgstr "0.01"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:119
+msgid "Include cart discounts and coupons"
+msgstr "Inclui descontos e cupons no carrinho"
+
+#: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:129
+msgid "Include tax"
+msgstr "Incluir taxa"
+
+#: extensions/promotion-upsell-notifications/rp-wcdpd-promotion-upsell-notifications.class.php:49
+msgid "Upsell Notifications"
+msgstr "Notificações Upsell"
+
+#: extensions/promotion-upsell-notifications/rp-wcdpd-promotion-upsell-notifications.class.php:50
+msgid ""
+"Displays a notification when only one step is remaining to get a discount."
+msgstr ""
+"Exibe uma notificação quando está apenas um passo para ganhar um desconto."
+
+#: extensions/promotion-upsell-notifications/rp-wcdpd-promotion-upsell-notifications.class.php:53
+msgid "Enable upsell notifications"
+msgstr "Habilitar notificações de upsell"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:52
+msgid "Volume Pricing Table"
+msgstr "Tabela de Preços por Volume"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:53
+msgid ""
+"Displays a table with potential savings that come with higher quantities "
+"purchased."
+msgstr ""
+"Exibe uma tabela com potenciais economias para quantidades de compra maiores."
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:63
+msgid "Quantity discounts"
+msgstr "Descontos por Quantidade"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:81
+msgid "Layout"
+msgstr "Layout"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:87
+msgid "Inline"
+msgstr "Em linha"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:89
+msgid "Inline - Horizontal"
+msgstr "Em linha - Horizontal"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:90
+msgid "Inline - Vertical"
+msgstr "Em linha - Vertical"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:94
+msgid "Modal"
+msgstr "Modal"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:96
+msgid "Modal - Horizontal"
+msgstr "Modal - Horizontal"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:97
+msgid "Modal - Vertical"
+msgstr "Modal - Vertical"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:103
+msgid "Value to display"
+msgstr "Valor para exibir"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:108
+msgid "Discounted price"
+msgstr "Preço com desconto"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:109
+msgid "Discount amount"
+msgstr "Valor do desconto"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:110
+msgid "Discount percentage"
+msgstr "Percentual de desconto"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:111
+msgid "Price & percentage"
+msgstr "Preço & porcentagem"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:115
+msgid "Price adjustments to include"
+msgstr "Ajustes de preço para incluir"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:120
+msgid "First applicable volume pricing rule only"
+msgstr "Somente a primeira regra de precificação por volume aplicável"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:121
+msgid "All applicable pricing rules & third-party adjustments"
+msgstr "Todas as regras de preços aplicáveis e ajustes de terceiros"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:123
+msgid ""
+"Including all adjustments may yield unexpected results when complex "
+"conditions or relations are used in pricing rules."
+msgstr ""
+"A inclusão de todos os ajustes pode produzir resultados inesperados quando "
+"condições ou relações complexas são utilizadas nas regras de preços."
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:126
+msgid "Variable product handling"
+msgstr "Manuseio de produto variável"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:131
+msgid "Display individual pricing tables"
+msgstr "Exibir tabelas de preços individuais"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:132
+msgid "Display one pricing table with all variations"
+msgstr "Exibir uma tabela de preços com todas as variações"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:136
+msgid "Undefined quantity handling"
+msgstr "Manipulação de quantidade indefinida"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:141
+msgid "Display missing ranges with regular price"
+msgstr "Exibir intervalos ausentes com preço normal"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:142
+msgid "Do not display missing ranges"
+msgstr "Não exibir intervalos ausentes"
+
+#: extensions/promotion-volume-pricing-table/rp-wcdpd-promotion-volume-pricing-table.class.php:146
+msgid "Display non-purchasable quantities"
+msgstr "Exibir quantidades não compráveis"
+
 #: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:60
 msgid "Your Price"
 msgstr "Seu Preço"
 
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:61
+msgid ""
+"Displays a dynamically updated price on a single product page. This price "
+"reflects all pricing adjustments that would be applicable if a specified "
+"quantity was added to cart."
+msgstr ""
+"Exibe um preço atualizado dinamicamente em uma única página de produto. Este "
+"preço reflete todos os ajustes de preços que seriam aplicáveis se uma "
+"quantidade especificada fosse adicionada ao carrinho."
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:69
+msgid "Display when product is not discounted"
+msgstr "Exibir quando o produto não tiver desconto"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:74
+msgid "Display quantity next to price"
+msgstr "Exibir quantidade ao lado do preço"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:79
+msgid "Display subtotal when displaying quantity"
+msgstr "Exibir subtotal ao exibir quantidade"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:84
+msgid "Position on page"
+msgstr "Posição na página"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:90
+msgid "Display separately"
+msgstr "Exibir separadamente"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:92
+msgid "Add to cart button - Before"
+msgstr "Botão adicionar ao carrinho - Antes"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:93
+msgid "Add to cart button - After"
+msgstr "Botão adicionar ao carrinho - Depois"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:94
+msgid "Add to cart form - Before"
+msgstr "Formulário adicionar ao carrinho - Antes"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:95
+msgid "Add to cart form - After"
+msgstr "Formulário adicionar ao carrinho - Depois"
+
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:101
+#: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:103
+msgid "Replace main price"
+msgstr "Substituir preço principal"
+
 #: extensions/promotion-your-price/rp-wcdpd-promotion-your-price.class.php:111
 msgid "Your Price:"
 msgstr "Seu Preço:"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-capabilities.class.php:59
+msgid "Select user capabilities"
+msgstr "Selecione capacidades do usuário"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-countries.class.php:58
+#| msgid "Select values"
+msgid "Select countries"
+msgstr "Selecione países"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-coupons.class.php:94
+#| msgid "Select values"
+msgid "Select coupons"
+msgstr "Selecione cupons"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-custom-taxonomy.class.php:105
+msgid "Select taxonomy terms"
+msgstr "Selecione termos de taxonomia"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-days-of-month.class.php:58
+msgid "Select days of month"
+msgstr "Selecione os dias do mês"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-months.class.php:58
+#| msgid "Select values"
+msgid "Select months"
+msgstr "Selecione meses"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-payment-methods.class.php:58
+#| msgid "Rule selection method"
+msgid "Select payment methods"
+msgstr "Selecione métodos de pagamento"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-attributes.class.php:91
+#| msgid "Other products with attributes"
+msgid "Select product attributes"
+msgstr "Selecione atributos do produto"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-categories.class.php:78
+#| msgid "Other products in categories"
+msgid "Select product categories"
+msgstr "Selecione categorias de produto"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-tags.class.php:58
+#| msgid "Other products with tags"
+msgid "Select product tags"
+msgstr "Selecione tags de produto"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-types.class.php:58
+#| msgid "Select values"
+msgid "Select product types"
+msgstr "Selecione tipos de produto"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-variations.class.php:58
+#| msgid "Other product variations"
+msgid "Select product variations"
+msgstr "Selecione variações do produto"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-products.class.php:58
+#| msgid "Same Products"
+msgid "Select products"
+msgstr "Selecione produtos"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-roles.class.php:58
+#| msgid "Select values"
+msgid "Select user roles"
+msgstr "Selecione funções de usuário"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-shipping-classes.class.php:58
+msgid "Select shipping classes"
+msgstr "Selecione classes de envio"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-shipping-methods.class.php:58
+#| msgid "Rule selection method"
+msgid "Select shipping methods"
+msgstr "Selecione métodos de envio"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-shipping-zones.class.php:58
+msgid "Select shipping zones"
+msgstr "Selecione zonas de envio"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-states.class.php:58
+#| msgid "Select values"
+msgid "Select states"
+msgstr "Selecione estados"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-users.class.php:58
+#| msgid "Select values"
+msgid "Select customers"
+msgstr "Selecione clientes"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-weekdays.class.php:58
+msgid "Select days of week"
+msgstr "Selecione os dias da semana"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect.class.php:104
+msgid "(DELETED)"
+msgstr "(EXCLUÍDO)"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-select-timeframe.class.php:71
+msgid "All time"
+msgstr "Todo o tempo"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-select-timeframe.class.php:73
+msgid "all time"
+msgstr "todo o tempo"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-date.class.php:58
+#| msgid "Select values"
+msgid "select date"
+msgstr "selecionar data"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-datetime.class.php:57
+msgid "select date and time"
+msgstr "selecionar data e hora"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-meta-key.class.php:43
+msgid "data key"
+msgstr "chave de dados"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-postcode.class.php:43
+msgid "e.g. 90210, 902**, 90200-90299, SW1A 1AA, NSW 2001"
+msgstr "ex.: 90210, 902**, 90200-90299, SW1A 1AA, NSW 2001"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-time.class.php:57
+msgid "select time"
+msgstr "selecionar horário"
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text.class.php:52
+msgid "value"
+msgstr "valor"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-boolean.class.php:45
+msgid "yes"
+msgstr "sim"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-boolean.class.php:46
+msgid "no"
+msgstr "não"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:45
+msgid "at least one of any"
+msgstr "pelo menos um de qualquer"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:46
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:46
+msgid "at least one of selected"
+msgstr "pelo menos um dos selecionados"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:47
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:47
+msgid "all of selected"
+msgstr "todos os selecionados"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:48
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:48
+msgid "only selected"
+msgstr "apenas os selecionados"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:49
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:49
+msgid "none of selected"
+msgstr "nenhum dos selecionados"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:50
+msgid "none at all"
+msgstr "nenhum"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-date.class.php:45
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-datetime.class.php:45
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-time.class.php:45
+msgid "from"
+msgstr "de"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-date.class.php:46
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-datetime.class.php:46
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-time.class.php:46
+msgid "to"
+msgstr "até"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-date.class.php:47
+msgid "specific date"
+msgstr "data específica"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:45
+msgid "is empty"
+msgstr "está vazio"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:46
+msgid "is not empty"
+msgstr "não está vazio"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:47
+msgid "contains"
+msgstr "contém"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:48
+#| msgid "Do not change"
+msgid "does not contain"
+msgstr "não contém"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:49
+msgid "begins with"
+msgstr "começa com"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:50
+msgid "ends with"
+msgstr "termina com"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:51
+msgid "equals"
+msgstr "é igual a"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:52
+msgid "does not equal"
+msgstr "não é igual a"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:53
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:48
+#| msgid "Time left less than"
+msgid "less than"
+msgstr "menor que"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:54
+msgid "less or equal to"
+msgstr "menor ou igual a"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:55
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:46
+msgid "more than"
+msgstr "maior que"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:56
+msgid "more or equal to"
+msgstr "maior ou igual a"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:57
+msgid "is checked"
+msgstr "está marcado"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:58
+msgid "is not checked"
+msgstr "não está marcado"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list.class.php:45
+msgid "in list"
+msgstr "na lista"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list.class.php:46
+msgid "not in list"
+msgstr "não está na lista"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:45
+msgid "at least"
+msgstr "no mínimo"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:47
+msgid "not more than"
+msgstr "não mais que"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-point-in-time.class.php:45
+msgid "within past"
+msgstr "nos últimos"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-point-in-time.class.php:46
+msgid "earlier than"
+msgstr "anterior a"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-postcode.class.php:45
+msgid "matches"
+msgstr "corresponde"
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-postcode.class.php:46
+msgid "does not match"
+msgstr "não corresponde"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-count.class.php:49
+#| msgid "Cart Discount"
+msgid "Cart item count"
+msgstr "Contagem de itens do carrinho"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-coupons.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-coupons.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-other-wc-coupons-applied.class.php:49
+msgid "Coupons applied"
+msgstr "Cupons aplicados"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-attributes.class.php:51
+msgid "Cart item quantity - Attributes"
+msgstr "Quantidade de itens no carrinho - Atributos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-categories.class.php:51
+msgid "Cart item quantity - Categories"
+msgstr "Quantidade de itens no carrinho - Categorias"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-shipping-classes.class.php:51
+msgid "Cart item quantity - Shipping classes"
+msgstr "Quantidade de itens no carrinho - Classes de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-tags.class.php:51
+msgid "Cart item quantity - Tags"
+msgstr "Quantidade de itens no carrinho - Tags"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-variations.class.php:51
+#| msgid "Cart Item Descriptions"
+msgid "Cart item quantity - Variations"
+msgstr "Quantidade de itens no carrinho - Variações"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-products.class.php:51
+msgid "Cart item quantity - Products"
+msgstr "Quantidade de itens no carrinho - Produtos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities.class.php:46
+msgid "Cart - Items - Quantity"
+msgstr "Carrinho - Itens - Quantidade"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-attributes.class.php:51
+#| msgid "Cart totals - After"
+msgid "Cart item subtotal - Attributes"
+msgstr "Subtotal dos itens do carrinho - Atributos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-categories.class.php:51
+#| msgid "Cart totals - Before"
+msgid "Cart item subtotal - Categories"
+msgstr "Subtotal dos itens do carrinho - Categorias"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-shipping-classes.class.php:51
+msgid "Cart item subtotal - Shipping classes"
+msgstr "Subtotal dos itens do carrinho - Classes de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-tags.class.php:51
+msgid "Cart item subtotal - Tags"
+msgstr "Subtotal dos itens do carrinho - Tags"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-variations.class.php:51
+#| msgid "Cart Item Descriptions"
+msgid "Cart item subtotal - Variations"
+msgstr "Subtotal dos itens do carrinho - Variações"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-products.class.php:51
+msgid "Cart item subtotal - Products"
+msgstr "Subtotal dos itens do carrinho - Produtos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals.class.php:46
+msgid "Cart - Items - Subtotal"
+msgstr "Carrinho - Itens - Subtotal"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-attributes.class.php:49
+#| msgid "Cart table - After"
+msgid "Cart items - Attributes"
+msgstr "Itens do carrinho - Atributos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-categories.class.php:49
+#| msgid "Cart table - Before"
+msgid "Cart items - Categories"
+msgstr "Itens do carrinho - Categorias"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-shipping-classes.class.php:49
+msgid "Cart items - Shipping Classes"
+msgstr "Itens do carrinho - Classes de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-tags.class.php:49
+msgid "Cart items - Tags"
+msgstr "Itens do carrinho - Tags"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-variations.class.php:49
+#| msgid "Cart Item Descriptions"
+msgid "Cart items - Variations"
+msgstr "Itens do carrinho - Variações"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-products.class.php:49
+#| msgid "Same Products"
+msgid "Cart items - Products"
+msgstr "Itens do carrinho - Produtos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items.class.php:46
+#| msgid "Fee Per Cart Item"
+msgid "Cart - Items"
+msgstr "Carrinho - Itens"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-quantity.class.php:49
+#| msgid "Cart totals - After"
+msgid "Cart total quantity"
+msgstr "Quantidade total do carrinho"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-subtotal.class.php:49
+#| msgid "Cart totals - After"
+msgid "Cart subtotal"
+msgstr "Subtotal do carrinho"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-weight.class.php:49
+#| msgid "Cart totals - After"
+msgid "Cart total weight"
+msgstr "Peso total do carrinho"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart.class.php:46
+msgid "Cart"
+msgstr "Carrinho"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-checkout-payment-method.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-payment-method.class.php:49
+msgid "Payment method"
+msgstr "Método de pagamento"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-checkout-shipping-method.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-shipping-method.class.php:49
+msgid "Shipping method"
+msgstr "Método de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-checkout.class.php:46
+#| msgid "Checkout Fee"
+msgid "Checkout"
+msgstr "Finalização"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-custom-taxonomy.class.php:45
+msgid "Custom Taxonomy"
+msgstr "Taxonomia personalizada"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-capability.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-customer-capability.class.php:49
+msgid "User capability"
+msgstr "Capacidade de usuário"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-customer.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer.class.php:46
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-customer.class.php:45
+msgid "Customer"
+msgstr "Cliente"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-logged-in.class.php:46
+msgid "Is logged in"
+msgstr "Está logado"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-meta.class.php:51
+msgid "User meta"
+msgstr "Metadados do usuário"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-role.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-customer-role.class.php:49
+msgid "User role"
+msgstr "Função do usuário"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-amount-spent.class.php:51
+msgid "Spent - Total"
+msgstr "Gasto - Total"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-average-order-amount.class.php:51
+msgid "Spent - Average per order"
+msgstr "Gasto - Média por pedido"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-last-order-amount.class.php:49
+msgid "Spent - Last order"
+msgstr "Gasto - Último pedido"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-last-order-time.class.php:49
+msgid "Last order"
+msgstr "Último pedido"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-order-count.class.php:51
+msgid "Order count"
+msgstr "Quantidade de pedidos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-review-count.class.php:49
+#| msgid "Customer Notifications"
+msgid "Customer review count"
+msgstr "Quantidade de avaliações do cliente"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value.class.php:46
+msgid "Customer - Value"
+msgstr "Cliente - Valor"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-attributes.class.php:49
+#| msgid "Other products with attributes"
+msgid "Order items - Attributes"
+msgstr "Itens do pedido - Atributos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-categories.class.php:49
+#| msgid "Other products in categories"
+msgid "Order items - Categories"
+msgstr "Itens do pedido - Categorias"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-tags.class.php:49
+msgid "Order items - Tags"
+msgstr "Itens do pedido - Tags"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-variations.class.php:49
+#| msgid "Other product variations"
+msgid "Order items - Variations"
+msgstr "Itens do pedido - Variações"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-products.class.php:49
+#| msgid "Other Products"
+msgid "Order items - Products"
+msgstr "Itens do pedido - Produtos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items.class.php:45
+#| msgid "Items"
+msgid "Order Items"
+msgstr "Itens do pedido"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-shipping.class.php:45
+msgid "Shipping"
+msgstr "Envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-total.class.php:49
+#| msgid "Order total - After"
+msgid "Order total"
+msgstr "Total do pedido"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order.class.php:45
+msgid "Order"
+msgstr "Pedido"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-attributes.class.php:49
+#| msgid "Other products with attributes"
+msgid "Product attributes"
+msgstr "Atributos do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-category.class.php:49
+#| msgid "Product Banners"
+msgid "Product category"
+msgstr "Categoria do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-other-cart-item-data.class.php:51
+msgid "Cart item data"
+msgstr "Dados do item do carrinho"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-product.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product.class.php:45
+#| msgid "Products"
+msgid "Product"
+msgstr "Produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-meta.class.php:51
+#| msgid "Product meta - After"
+msgid "Product metadata"
+msgstr "Metadados do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-on-sale.class.php:46
+#| msgid "Products - Get"
+msgid "Product is on sale"
+msgstr "Produto está em oferta"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-regular-price.class.php:49
+#| msgid "Regular price"
+msgid "Product regular price"
+msgstr "Preço normal do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-sale-price.class.php:49
+#| msgid "Product Banners"
+msgid "Product sale price"
+msgstr "Preço de oferta do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-shipping-class.class.php:49
+#| msgid "Product Pricing"
+msgid "Product shipping class"
+msgstr "Classe de envio do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-stock-quantity.class.php:49
+#| msgid "Products - Buy"
+msgid "Product stock quantity"
+msgstr "Quantidade em estoque do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-type.class.php:49
+#| msgid "Product Group"
+msgid "Product type"
+msgstr "Tipo de produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property.class.php:45
+#| msgid "Product Group"
+msgid "Product Property"
+msgstr "Propriedade do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-tags.class.php:49
+#| msgid "Products"
+msgid "Product tags"
+msgstr "Tags do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-variation.class.php:49
+#| msgid "Other product variations"
+msgid "Product variation"
+msgstr "Variação do produto"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-attributes.class.php:51
+msgid "Purchased - Attributes"
+msgstr "Comprado - Atributos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-categories.class.php:51
+#| msgid "Purchase Code"
+msgid "Purchased - Categories"
+msgstr "Comprado - Categorias"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-tags.class.php:51
+#| msgid "Purchase Code"
+msgid "Purchased - Tags"
+msgstr "Comprado - Tags"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-variations.class.php:51
+msgid "Purchased - Variations"
+msgstr "Comprado - Variações"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-products.class.php:51
+#| msgid "Same Products"
+msgid "Purchased - Products"
+msgstr "Comprado - Produtos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-attributes.class.php:51
+msgid "Quantity purchased - Attributes"
+msgstr "Quantidade comprada - Atributos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-categories.class.php:51
+msgid "Quantity purchased - Categories"
+msgstr "Quantidade comprada - Categorias"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-tags.class.php:51
+#| msgid "Quantity Ranges"
+msgid "Quantity purchased - Tags"
+msgstr "Quantidade comprada - Tags"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-variations.class.php:51
+msgid "Quantity purchased - Variations"
+msgstr "Quantidade comprada - Variações"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-products.class.php:51
+#| msgid "Restrict purchase of matched products"
+msgid "Quantity purchased - Products"
+msgstr "Quantidade comprada - Produtos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity.class.php:46
+msgid "Purchase History - Quantity"
+msgstr "Histórico de compras - Quantidade"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-attributes.class.php:51
+msgid "Value purchased - Attributes"
+msgstr "Valor comprado - Atributos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-categories.class.php:51
+#| msgid "Other products in categories"
+msgid "Value purchased - Categories"
+msgstr "Valor comprado - Categorias"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-tags.class.php:51
+msgid "Value purchased - Tags"
+msgstr "Valor comprado - Tags"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-variations.class.php:51
+msgid "Value purchased - Variations"
+msgstr "Valor comprado - Variações"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-products.class.php:51
+#| msgid "Restrict purchase of matched products"
+msgid "Value purchased - Products"
+msgstr "Valor comprado - Produtos"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value.class.php:46
+msgid "Purchase History - Value"
+msgstr "Histórico de compras - Valor"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history.class.php:46
+#| msgid "Purchase Code"
+msgid "Purchase History"
+msgstr "Histórico de compras"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-country.class.php:49
+msgid "Shipping country"
+msgstr "País de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-postcode.class.php:49
+msgid "Shipping postcode"
+msgstr "CEP de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-state.class.php:49
+msgid "Shipping state"
+msgstr "Estado de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-zone.class.php:49
+msgid "Shipping zone"
+msgstr "Zona de envio"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping.class.php:46
+#| msgid "Checkout Fees"
+msgid "Checkout - Address"
+msgstr "Finalização - Endereço"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-date.class.php:49
+msgid "Date"
+msgstr "Data"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-datetime.class.php:49
+msgid "Date & time"
+msgstr "Data e hora"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-days-of-month.class.php:49
+msgid "Days of month"
+msgstr "Dias do mês"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-months.class.php:49
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:109
+msgid "Months"
+msgstr "Meses"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-time.class.php:49
+msgid "Time"
+msgstr "Hora"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-weekdays.class.php:49
+msgid "Days of week"
+msgstr "Dias da semana"
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time.class.php:45
+msgid "Date & Time"
+msgstr "Data e hora"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:47
+msgid "Current"
+msgstr "Atual"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:50
+msgid "current day"
+msgstr "dia atual"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:54
+msgid "current week"
+msgstr "semana atual"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:58
+msgid "current month"
+msgstr "mês atual"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:62
+msgid "current year"
+msgstr "ano atual"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:70
+msgid "Last"
+msgstr "Último"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:73
+#: rightpress/classes/helper/rightpress-conditions.class.php:359
+#| msgid "1 day"
+msgid "last day"
+msgstr "último dia"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:78
+msgid "last week"
+msgstr "última semana"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:83
+msgid "last month"
+msgstr "último mês"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:88
+msgid "last year"
+msgstr "último ano"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:103
+msgid "Weeks"
+msgstr "Semanas"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:115
+msgid "Years"
+msgstr "Anos"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:123
+#: rightpress/classes/utility/rightpress-time.class.php:61
+#| msgid "1 day"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dia"
+msgstr[1] "dias"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:131
+#: rightpress/classes/utility/rightpress-time.class.php:68
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "semana"
+msgstr[1] "semanas"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:139
+#: rightpress/classes/utility/rightpress-time.class.php:75
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mês"
+msgstr[1] "meses"
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:147
+#: rightpress/classes/utility/rightpress-time.class.php:82
+msgid "year"
+msgid_plural "years"
+msgstr[0] "ano"
+msgstr[1] "anos"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:46
+msgctxt "Log entry status"
+msgid "Processing"
+msgstr "Processando"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:47
+#, php-format
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] "Processando <span class=\"count\">(%s)</span>"
+msgstr[1] "Processando <span class=\"count\">(%s)</span>"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:52
+msgctxt "Log entry status"
+msgid "Success"
+msgstr "Sucesso"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:53
+#, php-format
+msgid "Success <span class=\"count\">(%s)</span>"
+msgid_plural "Success <span class=\"count\">(%s)</span>"
+msgstr[0] "Sucesso <span class=\"count\">(%s)</span>"
+msgstr[1] "Sucesso <span class=\"count\">(%s)</span>"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:58
+msgctxt "Log entry status"
+msgid "Warning"
+msgstr "Aviso"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:59
+#, php-format
+msgid "Warning <span class=\"count\">(%s)</span>"
+msgid_plural "Warning <span class=\"count\">(%s)</span>"
+msgstr[0] "Aviso <span class=\"count\">(%s)</span>"
+msgstr[1] "Aviso <span class=\"count\">(%s)</span>"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:64
+msgctxt "Log entry status"
+msgid "Failed"
+msgstr "Falhou"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:65
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Falhou <span class=\"count\">(%s)</span>"
+msgstr[1] "Falhou <span class=\"count\">(%s)</span>"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:70
+msgctxt "Log entry status"
+msgid "Error"
+msgstr "Erro"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:71
+#, php-format
+msgid "Error <span class=\"count\">(%s)</span>"
+msgid_plural "Error <span class=\"count\">(%s)</span>"
+msgstr[0] "Erro <span class=\"count\">(%s)</span>"
+msgstr[1] "Erro <span class=\"count\">(%s)</span>"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:130
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:131
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:136
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:142
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:144
+msgid "Activity Log"
+msgstr "Registro de atividades"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:132
+msgid "Add Log Entry"
+msgstr "Adicionar entrada de log"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:133
+msgid "Add New Log Entry"
+msgstr "Adicionar nova entrada de log"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:134
+msgid "Edit Log Entry"
+msgstr "Editar entrada de log"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:135
+msgid "New Log Entry"
+msgstr "Nova entrada de log"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:137
+msgid "View Log Entry"
+msgstr "Ver entrada de log"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:138
+msgid "Search Activity Log"
+msgstr "Pesquisar registro de atividades"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:139
+#| msgid "No results found"
+msgid "No Log Entries Found"
+msgstr "Nenhuma entrada de log encontrada"
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:140
+msgid "No Log Entries Found In Trash"
+msgstr "Nenhuma entrada de log encontrada na lixeira"
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:262
+msgid "Invalid log entry event type."
+msgstr "Tipo de evento da entrada de log inválido."
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:382
+#, php-format
+msgid "PHP Fatal error %s in %s on line %s."
+msgstr "Erro fatal do PHP %s em %s na linha %s."
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:387
+msgid "Execution ended prematurely."
+msgstr "A execução foi encerrada prematuramente."
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:387
+msgid "Reason unknown."
+msgstr "Motivo desconhecido."
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:466
+#| msgid "An unexpected error occurred."
+msgid "Unexpected error occurred."
+msgstr "Ocorreu um erro inesperado."
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:533
+#, php-format
+msgid "user #%d"
+msgstr "usuário #%d"
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:538
+msgid "system"
+msgstr "sistema"
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:565
+msgid "User profile"
+msgstr "Perfil do usuário"
+
+#: rightpress/classes/helper/rightpress-conditions.class.php:508
+#, php-format
+msgid "Any %s"
+msgstr "Qualquer %s"
+
+#: rightpress/classes/helper/rightpress-conditions.class.php:879
+#| msgid "Other product variations"
+msgid "Other locations"
+msgstr "Outras localidades"
+
+#: rightpress/classes/helper/rightpress-conditions.class.php:905
+msgid "All zones"
+msgstr "Todas as zonas"
+
+#: rightpress/classes/helper/rightpress-help.class.php:3078
+msgid "Standard Rate"
+msgstr "Taxa padrão"
+
+#: rightpress/classes/helper/rightpress-help.class.php:3794
+#, php-format
+msgid "%1$s was called incorrectly. %2$s. Since version %3$s."
+msgstr "%1$s foi chamado incorretamente. %2$s. Desde a versão %3$s."
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:135
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "há %d segundo"
+msgstr[1] "há %d segundos"
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:140
+#, php-format
+msgid "In %d second"
+msgid_plural "In %d seconds"
+msgstr[0] "Em %d segundo"
+msgstr[1] "Em %d segundos"
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:145
+msgid "Now!"
+msgstr "Agora!"
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:152
+msgid "In"
+msgstr "Em"
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:153
+msgid "ago"
+msgstr "atrás"
+
+#: rightpress/classes/utility/rightpress-time.class.php:46
+#| msgid "5 minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuto"
+msgstr[1] "minutos"
+
+#: rightpress/classes/utility/rightpress-time.class.php:47
+#, php-format
+#| msgid "5 minutes"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
+
+#: rightpress/classes/utility/rightpress-time.class.php:53
+#| msgid "1 hour"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "hora"
+msgstr[1] "horas"
+
+#: rightpress/classes/utility/rightpress-time.class.php:54
+#, php-format
+#| msgid "1 hour"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
+
+#: rightpress/classes/utility/rightpress-time.class.php:62
+#, php-format
+#| msgid "1 day"
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dia"
+msgstr[1] "%d dias"
+
+#: rightpress/classes/utility/rightpress-time.class.php:69
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d semana"
+msgstr[1] "%d semanas"
+
+#: rightpress/classes/utility/rightpress-time.class.php:76
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d mês"
+msgstr[1] "%d meses"
+
+#: rightpress/classes/utility/rightpress-time.class.php:83
+#, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d ano"
+msgstr[1] "%d anos"
+
+#: rightpress/classes/utility/rightpress-time.class.php:129
+#: rightpress/classes/utility/rightpress-time.class.php:153
+#: rightpress/classes/utility/rightpress-time.class.php:289
+msgid "Invalid time period."
+msgstr "Período de tempo inválido."
+
+#: rightpress/classes/utility/rightpress-time.class.php:275
+msgid "Invalid datetime."
+msgstr "Data e hora inválidas."
+
+#: rightpress/classes/utility/rightpress-time.class.php:284
+msgid "Invalid time period length."
+msgstr "Duração do período de tempo inválida."
+
+#: rightpress/classes/utility/rightpress-time.class.php:338
+msgid "Target length undefined."
+msgstr "Duração alvo indefinida."
+
+#: rightpress/components/rightpress-product-list-shared-column/rightpress-product-list-shared-column.class.php:48
+msgid "Properties"
+msgstr "Propriedades"
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:874
+#| msgid "Add Rule"
+msgid "Add values"
+msgstr "Adicionar valores"
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:875
+msgid "Start typing..."
+msgstr "Comece a digitar..."
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:885
+#| msgid "Value must be greater than or equal to 1."
+msgid "Value must be greater than or equal to {{value}}."
+msgstr "O valor deve ser maior ou igual a {{value}}."
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1649
+#| msgid ""
+#| "Warning! Importing settings will irrecoverably overwrite your existing "
+#| "settings, including any pricing rules, discounts and fees."
+msgid ""
+"Warning! Importing settings will irrecoverably overwrite your existing "
+"settings."
+msgstr "Atenção! A importação de configurações substituirá de forma irreversível suas configurações existentes."
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1783
+msgid ""
+"Error: Uploaded settings file is invalid. It might be corrupted or truncated."
+msgstr "Erro: o arquivo de configurações enviado é inválido. Ele pode estar corrompido ou truncado."
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1788
+msgid ""
+"Error: Uploaded file contains settings for a different plugin. Please check "
+"your file and try again."
+msgstr "Erro: o arquivo enviado contém configurações de um plugin diferente. Verifique seu arquivo e tente novamente."
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1793
+msgid ""
+"Error: There was an error processing uploaded settings file. Please try "
+"again."
+msgstr "Erro: ocorreu um erro ao processar o arquivo de configurações enviado. Tente novamente."
+
+#: rightpress/components/rightpress-settings-component/views/plugin/preloader.php:20
+#: views/settings/preloader.php:22
+msgid "User Interface Loading"
+msgstr "Carregando interface do usuário"
+
+#: rightpress/components/rightpress-settings-component/views/plugin/preloader.php:24
+#| msgid ""
+#| "This plugin uses a JavaScript-driven user interface. If this notice does "
+#| "not disappear in a few seconds, you should check Console for any "
+#| "JavaScript errors or get in touch with %s."
+msgid ""
+"This plugin uses a JavaScript-driven user interface. If this notice does not "
+"disappear within a few seconds, you should check Console for any JavaScript "
+"errors."
+msgstr "Este plugin usa uma interface de usuário baseada em JavaScript. Se este aviso não desaparecer em alguns segundos, verifique o Console por erros de JavaScript."
+
+#: rp_wcdpd.class.php:393
+#, php-format
+msgid ""
+"%1$s requires PHP %2$s or later. Please update PHP on your server to use "
+"this plugin."
+msgstr "%1$s requer PHP %2$s ou superior. Atualize o PHP no seu servidor para usar este plugin."
+
+#: rp_wcdpd.class.php:405
+#, php-format
+msgid ""
+"%1$s requires WordPress version %2$s or later. Please update WordPress to "
+"use this plugin."
+msgstr "%1$s requer WordPress versão %2$s ou superior. Atualize o WordPress para usar este plugin."
+
+#: rp_wcdpd.class.php:417
+#, php-format
+#| msgid ""
+#| "%1$s requires WooCommerce to be active. You can download WooCommerce %2$s."
+msgid "%1$s requires WooCommerce to be active."
+msgstr "%1$s requer que o WooCommerce esteja ativo."
+
+#: rp_wcdpd.class.php:429
+#, php-format
+msgid ""
+"%1$s requires WooCommerce version %2$s or later. Please update WooCommerce "
+"to use this plugin."
+msgstr "%1$s requer WooCommerce versão %2$s ou superior. Atualize o WooCommerce para usar este plugin."
+
+#: views/settings/preloader.php:26
+#| msgid ""
+#| "This plugin uses a JavaScript-driven user interface. If this notice does "
+#| "not disappear in a few seconds, you should check Console for any "
+#| "JavaScript errors or get in touch with %s."
+msgid ""
+"This plugin uses a JavaScript-driven user interface. If this notice does not "
+"disappear in a few seconds, you should check Console for any JavaScript "
+"errors."
+msgstr "Este plugin usa uma interface de usuário baseada em JavaScript. Se este aviso não desaparecer em alguns segundos, verifique o Console por erros de JavaScript."
+
+#: views/settings/preloader.php:30
+msgid ""
+"Note: User interface load time depends on a number of entries. Load time "
+"will increase by a fraction with each additional entry."
+msgstr "Nota: o tempo de carregamento da interface do usuário depende do número de entradas. O tempo de carregamento aumentará um pouco a cada entrada adicional."
+
+#: views/settings/templates.php:19
+msgid "No rules configured."
+msgstr "Nenhuma regra configurada."
+
+#: views/settings/templates.php:25 views/settings/templates.php:26
+msgid "Add Rule"
+msgstr "Adicionar regra"
+
+#: views/settings/templates.php:69
+msgid "Loading data..."
+msgstr "Carregando dados..."
+
+#: views/settings/templates.php:94
+msgid "Method"
+msgstr "Método"
+
+#: views/settings/templates.php:106 views/settings/templates.php:145
+msgid "Public"
+msgstr "Público"
+
+#: views/settings/templates.php:119
+msgid "Quantities"
+msgstr "Quantidades"
+
+#: views/settings/templates.php:130
+msgid "Note"
+msgstr "Nota"
+
+#: views/settings/templates.php:130
+msgid "Private"
+msgstr "Privado"
+
+#: views/settings/templates.php:145
+msgid "Description"
+msgstr "Descrição"
+
+#: views/settings/templates.php:157
+msgid "Quantities & Discount"
+msgstr "Quantidades e desconto"
+
+#: views/settings/templates.php:165 views/settings/templates.php:176
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: views/settings/templates.php:166
+msgid "Buy"
+msgstr "Compre"
+
+#: views/settings/templates.php:166
+msgid "At Full Price"
+msgstr "Ao preço cheio"
+
+#: views/settings/templates.php:177
+msgid "Get"
+msgstr "Leve"
+
+#: views/settings/templates.php:177
+msgid "Discounted"
+msgstr "Com desconto"
+
+#: views/settings/templates.php:213
+msgid "Quantity Ranges"
+msgstr "Intervalos de quantidade"
+
+#: views/settings/templates.php:216 views/settings/templates.php:217
+msgid "Add Range"
+msgstr "Adicionar intervalo"
+
+#: views/settings/templates.php:292
+msgid "Product Group"
+msgstr "Grupo de produtos"
+
+#: views/settings/templates.php:295 views/settings/templates.php:296
+#: views/settings/templates.php:316 views/settings/templates.php:317
+#: views/settings/templates.php:331 views/settings/templates.php:332
+msgid "Add Product"
+msgstr "Adicionar produto"
+
+#: views/settings/templates.php:308
+msgid "Items"
+msgstr "Itens"
+
+#: views/settings/templates.php:310
+msgid "Products"
+msgstr "Produtos"
+
+#: views/settings/templates.php:311
+msgid "Products - Buy"
+msgstr "Produtos - Compre"
+
+#: views/settings/templates.php:328
+msgid "Products - Get"
+msgstr "Produtos - Leve"
+
+#: views/settings/templates.php:346 views/settings/templates.php:347
+msgid "Add Condition"
+msgstr "Adicionar condição"
+
+#: views/settings/templates.php:360 views/settings/templates.php:446
+msgid "Applies to all products."
+msgstr "Aplica-se a todos os produtos."
+
+#: views/settings/templates.php:362
+msgid "Applies to all items."
+msgstr "Aplica-se a todos os itens."
+
+#: views/settings/templates.php:528
+msgid "Applies in all cases."
+msgstr "Aplica-se em todos os casos."
+
+#: views/settings/templates.php:609
+msgid ""
+"Condition type was disabled. Enable it or delete this placeholder after "
+"reviewing your settings."
+msgstr "O tipo de condição foi desativado. Ative-o ou exclua este espaço reservado após revisar suas configurações."
+
+#: views/settings/templates.php:618
+msgid ""
+"Custom taxonomy condition was disabled. Enable it or delete this placeholder "
+"after reviewing your settings."
+msgstr "A condição de taxonomia personalizada foi desativada. Ative-a ou exclua este espaço reservado após revisar suas configurações."
+
+#: views/settings/templates.php:627
+msgid ""
+"Condition type no longer exists. Delete this placeholder after reviewing "
+"your settings."
+msgstr "O tipo de condição não existe mais. Exclua este espaço reservado após revisar suas configurações."
+
+#: views/settings/templates.php:636
+msgid ""
+"Custom taxonomy no longer exists. Delete this placeholder after reviewing "
+"your settings."
+msgstr "A taxonomia personalizada não existe mais. Exclua este espaço reservado após revisar suas configurações."
+
+#: views/settings/templates.php:645
+msgid "No quantity ranges."
+msgstr "Nenhum intervalo de quantidade."
+
+#: views/settings/templates.php:670
+msgid "From"
+msgstr "De"
+
+#: views/settings/templates.php:682
+msgid "To - No limit"
+msgstr "Até - Sem limite"
+
+#: views/settings/templates.php:732
+msgid "No products in group."
+msgstr "Nenhum produto no grupo."
+
+#. Plugin Name of the plugin/theme
+#| msgid "Pricing & Discounts"
+msgid "WooCommerce Dynamic Pricing & Discounts"
+msgstr "WooCommerce Precificação e Descontos Dinâmicos"
+
+#. Description of the plugin/theme
+msgid ""
+"All-purpose product pricing, cart discount and checkout fee tool for "
+"WooCommerce"
+msgstr "Ferramenta completa de precificação de produtos, descontos no carrinho e taxas de finalização para WooCommerce"
+
+#. Author of the plugin/theme
+#| msgid "RightPress Support"
+msgid "RightPress"
+msgstr "RightPress"
+
+#, php-format
+#~ msgid ""
+#~ "%s supports automatic updates. To receive them, enter your CodeCanyon "
+#~ "Purchase Code below."
+#~ msgstr ""
+#~ "%s suporta atualizações automáticas. Para recebê-las, insira seu Código "
+#~ "de Compra CodeCanyon abaixo."
+
+#~ msgid "Automatic Update Setup"
+#~ msgstr "Configuração de atualização automática"
+
+#~ msgid "Do not remind me again"
+#~ msgstr "Não me lembre novamente"
+
+#~ msgid "Enter your Envato Purchase Code to enable automatic updates."
+#~ msgstr ""
+#~ "Insira seu código de compra da Envato para ativar as atualizações "
+#~ "automáticas."
+
+#~ msgid "here"
+#~ msgstr "aqui"
+
+#~ msgid "Hide This Notice"
+#~ msgstr "Ocultar este Aviso"
+
+#, php-format
+#~ msgid "If you have any questions, please contact %s."
+#~ msgstr "Se você tiver alguma dúvida, entre em contato com %s."
+
+#~ msgid "other methods"
+#~ msgstr "outros métodos"
+
+#~ msgid "Please change it and try again."
+#~ msgstr "Por favor, altere-o e tente novamente."
+
+#~ msgid "Please fix it and try again."
+#~ msgstr "Por favor, corrija e tente novamente."
+
+#~ msgid "Purchase Code belongs to another product."
+#~ msgstr "Código de compra pertence a outro produto."
+
+#~ msgid "Purchase Code format is invalid."
+#~ msgstr "O formato do código de compra é inválido."
+
+#~ msgid "Purchase Code has been successfully reset."
+#~ msgstr "O código de compra foi reiniciado com sucesso."
+
+#~ msgid "Purchase Code has been successfully updated."
+#~ msgstr "O código de compra foi atualizado com sucesso."
+
+#~ msgid "Purchase Code is not valid."
+#~ msgstr "Código de Compra não é válido."
+
+#~ msgid "renew"
+#~ msgstr "renovar"
+
+#, php-format
+#~ msgid ""
+#~ "RightPress no longer serves automatic updates as your %s has expired."
+#~ msgstr ""
+#~ "O RightPress não fornece mais atualizações automáticas, pois seu %s "
+#~ "expirou."
+
+#~ msgid "Submit"
+#~ msgstr "Enviar"
+
+#~ msgid "Support"
+#~ msgstr "Suporte"
+
+#~ msgid "support subscription"
+#~ msgstr "assinatura de suporte"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %s available. To enable automatic updates, "
+#~ "enter your CodeCanyon Purchase Code below."
+#~ msgstr ""
+#~ "Há uma nova versão de %s disponível. Para habilitar atualizações "
+#~ "automáticas, insira seu Código de Compra CodeCanyon abaixo."
+
+#~ msgid "Unable to verify Purchase Code right now. Please try again later."
+#~ msgstr ""
+#~ "Não foi possível verificar o Código de Compra agora. Por favor, tente "
+#~ "novamente mais tarde."
+
+#~ msgid "Where do I find my Purchase Code?"
+#~ msgstr "Onde posso encontrar meu código de compra?"
+
+#, php-format
+#~ msgid ""
+#~ "You can %1$s your support subscription or use %2$s to keep this plugin "
+#~ "updated."
+#~ msgstr ""
+#~ "Você pode %1$s sua assinatura de suporte ou usar %2$s para manter este "
+#~ "plugin atualizado."
+
+#, php-format
+#~ msgid "You must enter your Purchase Code %s to enable automatic updates."
+#~ msgstr ""
+#~ "Você deve inserir seu código de compra %s para habilitar atualizações "
+#~ "automáticas."

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce Dynamic Pricing & Discounts\n"
-"POT-Creation-Date: 2023-09-16 10:56+0300\n"
+"POT-Creation-Date: 2026-01-30 02:28-0300\n"
 "PO-Revision-Date: 2014-03-10 23:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: RightPress <info@rightpress.net>\n"
@@ -11,14 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"X-Generator: Poedit 3.3.2\n"
-"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
-"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
-"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: rightpress\n"
 
 #: classes/conditions/conditions/rp-wcdpd-condition-other-pricing-rules-applied.class.php:55
 #: classes/conditions/conditions/rp-wcdpd-condition-product-other-pricing-rules-applied.class.php:54
@@ -56,6 +55,8 @@ msgid "Restrict purchase of matched products"
 msgstr ""
 
 #: classes/methods/methods/rp-wcdpd-method-product-pricing-other.class.php:48
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-other.class.php:45
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-other.class.php:45
 msgid "Other"
 msgstr ""
 
@@ -199,6 +200,7 @@ msgid "Fixed price"
 msgstr ""
 
 #: classes/pricing-methods/pricing-methods/rp-wcdpd-pricing-method-fixed.class.php:48
+#: rightpress/components/rightpress-product-price/classes/rightpress-product-price-live-update.class.php:184
 msgid "Price"
 msgstr ""
 
@@ -218,95 +220,108 @@ msgstr ""
 msgid "No taxonomies enabled"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:204 classes/rp-wcdpd-assets.class.php:219
+#: classes/rp-wcdpd-assets.class.php:204 classes/rp-wcdpd-assets.class.php:221
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect.class.php:165
 msgid "Select values"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:205 classes/rp-wcdpd-assets.class.php:220
+#: classes/rp-wcdpd-assets.class.php:205 classes/rp-wcdpd-assets.class.php:222
 msgid "No results found"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:216
+#: classes/rp-wcdpd-assets.class.php:206 classes/rp-wcdpd-assets.class.php:223
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: classes/rp-wcdpd-assets.class.php:207 classes/rp-wcdpd-assets.class.php:224
+msgid "Searching..."
+msgstr ""
+
+#: classes/rp-wcdpd-assets.class.php:218
 #, php-format
 msgid "Buy %s get %s"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:217
+#: classes/rp-wcdpd-assets.class.php:219
 #, php-format
 msgid "Buy %s get %s - Repeating"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:222
+#: classes/rp-wcdpd-assets.class.php:226
 msgid "per item"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:223
+#: classes/rp-wcdpd-assets.class.php:227
 msgid "per cart item"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:224
+#: classes/rp-wcdpd-assets.class.php:228
 msgid "per cart line"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:225
+#: classes/rp-wcdpd-assets.class.php:229
 msgid "per group"
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:228
+#: classes/rp-wcdpd-assets.class.php:232
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:881
 msgid "Error: Please fix this element."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:229
+#: classes/rp-wcdpd-assets.class.php:233
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:882
 msgid "Value is required."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:230 classes/rp-wcdpd-assets.class.php:231
+#: classes/rp-wcdpd-assets.class.php:234 classes/rp-wcdpd-assets.class.php:235
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:884
 msgid "Value must be positive."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:232
+#: classes/rp-wcdpd-assets.class.php:236
 msgid "Value must be greater than or equal to 1."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:233
+#: classes/rp-wcdpd-assets.class.php:237
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:883
 msgid "Value must be a whole number."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:234
+#: classes/rp-wcdpd-assets.class.php:238
 msgid "At least one quantity range is required for this pricing rule."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:235
+#: classes/rp-wcdpd-assets.class.php:239
 msgid "At least one product must be added to a group."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:236
+#: classes/rp-wcdpd-assets.class.php:240
 msgid "At least one condition is required for this rule."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:237
+#: classes/rp-wcdpd-assets.class.php:241
 msgid "Closing quantity must not be lower than opening quantity."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:238
+#: classes/rp-wcdpd-assets.class.php:242
 msgid ""
 "Quantity range cannot be left open when adding subsequent quantity ranges."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:239
+#: classes/rp-wcdpd-assets.class.php:243
 msgid ""
 "Quantity range must start with a higher value than previous quantity range."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:240
+#: classes/rp-wcdpd-assets.class.php:244
 msgid "Quantity ranges must not overlap."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:241
+#: classes/rp-wcdpd-assets.class.php:245
 msgid "Rule must not contain conditions of non-existent type."
 msgstr ""
 
-#: classes/rp-wcdpd-assets.class.php:242
+#: classes/rp-wcdpd-assets.class.php:246
 msgid "Rule must not contain disabled conditions."
 msgstr ""
 
@@ -363,8 +378,8 @@ msgstr ""
 #: classes/rp-wcdpd-settings.class.php:140
 #: classes/rp-wcdpd-settings.class.php:214
 #: classes/rp-wcdpd-settings.class.php:282
+#: classes/rp-wcdpd-settings.class.php:2155
 #: classes/rp-wcdpd-settings.class.php:2157
-#: classes/rp-wcdpd-settings.class.php:2159
 #: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:80
 #: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:82
 #: extensions/promotion-total-saved/rp-wcdpd-promotion-total-saved.class.php:105
@@ -490,7 +505,10 @@ msgstr ""
 msgid "Promotion"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:328 rp_wcdpd.class.php:439
+#: classes/rp-wcdpd-settings.class.php:328
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:680
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:681
+#: rp_wcdpd.class.php:446
 msgid "Settings"
 msgstr ""
 
@@ -643,10 +661,12 @@ msgid ""
 msgstr ""
 
 #: classes/rp-wcdpd-settings.class.php:453
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1641
 msgid "Import & Export"
 msgstr ""
 
 #: classes/rp-wcdpd-settings.class.php:456
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1647
 msgid "Import settings"
 msgstr ""
 
@@ -657,10 +677,12 @@ msgid ""
 msgstr ""
 
 #: classes/rp-wcdpd-settings.class.php:462
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1654
 msgid "Export settings"
 msgstr ""
 
 #: classes/rp-wcdpd-settings.class.php:464
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1655
 msgid "Click here to export"
 msgstr ""
 
@@ -680,107 +702,110 @@ msgstr ""
 msgid "Pricing & Discounts"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:1186
+#: classes/rp-wcdpd-settings.class.php:1184
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1272
 msgid "Unable to validate settings."
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:1274
+#: classes/rp-wcdpd-settings.class.php:1272
 msgid "Notification message must not be empty."
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:1307
+#: classes/rp-wcdpd-settings.class.php:1305
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1296
 msgid "Settings updated."
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2086
+#: classes/rp-wcdpd-settings.class.php:2084
 msgid "Individual"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2088
+#: classes/rp-wcdpd-settings.class.php:2086
 msgid "Individual product"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2089
+#: classes/rp-wcdpd-settings.class.php:2087
 msgid "Individual variation"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2090
+#: classes/rp-wcdpd-settings.class.php:2088
 msgid "Individual cart item"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2094
+#: classes/rp-wcdpd-settings.class.php:2092
 msgid "Added Up"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2096
+#: classes/rp-wcdpd-settings.class.php:2094
 msgid "Added up"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2097
+#: classes/rp-wcdpd-settings.class.php:2095
 msgid "Added up by category"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2144
+#: classes/rp-wcdpd-settings.class.php:2142
 msgid "Non-Exclusive"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2146
+#: classes/rp-wcdpd-settings.class.php:2144
 msgid "Apply with other applicable rules"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2150
+#: classes/rp-wcdpd-settings.class.php:2148
 msgid "Exclusive - Per Cart Item"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2150
+#: classes/rp-wcdpd-settings.class.php:2148
 msgid "Exclusive"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2152
+#: classes/rp-wcdpd-settings.class.php:2150
 msgid "Apply this rule and disregard other rules"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2153
+#: classes/rp-wcdpd-settings.class.php:2151
 msgid "Apply if other rules are not applicable"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2204
+#: classes/rp-wcdpd-settings.class.php:2202
 msgid "Same Products"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2207
+#: classes/rp-wcdpd-settings.class.php:2205
 msgid "Same as products at full price"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2211
+#: classes/rp-wcdpd-settings.class.php:2209
 msgid "Other Products"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2213
+#: classes/rp-wcdpd-settings.class.php:2211
 msgid "Other products"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2214
+#: classes/rp-wcdpd-settings.class.php:2212
 msgid "Other product variations"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2215
+#: classes/rp-wcdpd-settings.class.php:2213
 msgid "Other products in categories"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2216
+#: classes/rp-wcdpd-settings.class.php:2214
 msgid "Other products with attributes"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2217
+#: classes/rp-wcdpd-settings.class.php:2215
 msgid "Other products with tags"
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2578
+#: classes/rp-wcdpd-settings.class.php:2576
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1771
 msgid "Settings were successfully imported."
 msgstr ""
 
-#: classes/rp-wcdpd-settings.class.php:2588
+#: classes/rp-wcdpd-settings.class.php:2586
 msgid "Error: Uploaded configuration file is not valid."
 msgstr ""
 
@@ -934,6 +959,7 @@ msgid "12 hours"
 msgstr ""
 
 #: extensions/promotion-countdown-timer/rp-wcdpd-promotion-countdown-timer.class.php:106
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:97
 msgid "Days"
 msgstr ""
 
@@ -1327,175 +1353,1071 @@ msgstr ""
 msgid "Your Price:"
 msgstr ""
 
-#: rightpress-updates/rightpress-updates.class.php:280
-#: rightpress-updates/rightpress-updates.class.php:288
-msgid "An unexpected error occurred."
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-capabilities.class.php:59
+msgid "Select user capabilities"
 msgstr ""
 
-#: rightpress-updates/rightpress-updates.class.php:565
-msgid "Automatic Update Setup"
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-countries.class.php:58
+msgid "Select countries"
 msgstr ""
 
-#: rightpress-updates/rightpress-updates.class.php:569
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-coupons.class.php:94
+msgid "Select coupons"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-custom-taxonomy.class.php:105
+msgid "Select taxonomy terms"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-days-of-month.class.php:58
+msgid "Select days of month"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-months.class.php:58
+msgid "Select months"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-payment-methods.class.php:58
+msgid "Select payment methods"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-attributes.class.php:91
+msgid "Select product attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-categories.class.php:78
+msgid "Select product categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-tags.class.php:58
+msgid "Select product tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-types.class.php:58
+msgid "Select product types"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-product-variations.class.php:58
+msgid "Select product variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-products.class.php:58
+msgid "Select products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-roles.class.php:58
+msgid "Select user roles"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-shipping-classes.class.php:58
+msgid "Select shipping classes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-shipping-methods.class.php:58
+msgid "Select shipping methods"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-shipping-zones.class.php:58
+msgid "Select shipping zones"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-states.class.php:58
+msgid "Select states"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-users.class.php:58
+msgid "Select customers"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect-weekdays.class.php:58
+msgid "Select days of week"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-multiselect.class.php:104
+msgid "(DELETED)"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-select-timeframe.class.php:71
+msgid "All time"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-select-timeframe.class.php:73
+msgid "all time"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-date.class.php:58
+msgid "select date"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-datetime.class.php:57
+msgid "select date and time"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-meta-key.class.php:43
+msgid "data key"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-postcode.class.php:43
+msgid "e.g. 90210, 902**, 90200-90299, SW1A 1AA, NSW 2001"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text-time.class.php:57
+msgid "select time"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-fields/rightpress-condition-field-text.class.php:52
+msgid "value"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-boolean.class.php:45
+msgid "yes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-boolean.class.php:46
+msgid "no"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:45
+msgid "at least one of any"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:46
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:46
+msgid "at least one of selected"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:47
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:47
+msgid "all of selected"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:48
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:48
+msgid "only selected"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:49
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list-advanced.class.php:49
+msgid "none of selected"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-coupons.class.php:50
+msgid "none at all"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-date.class.php:45
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-datetime.class.php:45
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-time.class.php:45
+msgid "from"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-date.class.php:46
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-datetime.class.php:46
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-time.class.php:46
+msgid "to"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-date.class.php:47
+msgid "specific date"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:45
+msgid "is empty"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:46
+msgid "is not empty"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:47
+msgid "contains"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:48
+msgid "does not contain"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:49
+msgid "begins with"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:50
+msgid "ends with"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:51
+msgid "equals"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:52
+msgid "does not equal"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:53
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:48
+msgid "less than"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:54
+msgid "less or equal to"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:55
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:46
+msgid "more than"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:56
+msgid "more or equal to"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:57
+msgid "is checked"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-field.class.php:58
+msgid "is not checked"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list.class.php:45
+msgid "in list"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-list.class.php:46
+msgid "not in list"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:45
+msgid "at least"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-numeric.class.php:47
+msgid "not more than"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-point-in-time.class.php:45
+msgid "within past"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-point-in-time.class.php:46
+msgid "earlier than"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-postcode.class.php:45
+msgid "matches"
+msgstr ""
+
+#: rightpress/class-collections/conditions/condition-methods/rightpress-condition-method-postcode.class.php:46
+msgid "does not match"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-count.class.php:49
+msgid "Cart item count"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-coupons.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-coupons.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-other-wc-coupons-applied.class.php:49
+msgid "Coupons applied"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-attributes.class.php:51
+msgid "Cart item quantity - Attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-categories.class.php:51
+msgid "Cart item quantity - Categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-shipping-classes.class.php:51
+msgid "Cart item quantity - Shipping classes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-tags.class.php:51
+msgid "Cart item quantity - Tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-product-variations.class.php:51
+msgid "Cart item quantity - Variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities-products.class.php:51
+msgid "Cart item quantity - Products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-quantities.class.php:46
+msgid "Cart - Items - Quantity"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-attributes.class.php:51
+msgid "Cart item subtotal - Attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-categories.class.php:51
+msgid "Cart item subtotal - Categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-shipping-classes.class.php:51
+msgid "Cart item subtotal - Shipping classes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-tags.class.php:51
+msgid "Cart item subtotal - Tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-product-variations.class.php:51
+msgid "Cart item subtotal - Variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals-products.class.php:51
+msgid "Cart item subtotal - Products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-item-subtotals.class.php:46
+msgid "Cart - Items - Subtotal"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-attributes.class.php:49
+msgid "Cart items - Attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-categories.class.php:49
+msgid "Cart items - Categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-shipping-classes.class.php:49
+msgid "Cart items - Shipping Classes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-tags.class.php:49
+msgid "Cart items - Tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-product-variations.class.php:49
+msgid "Cart items - Variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items-products.class.php:49
+msgid "Cart items - Products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-items.class.php:46
+msgid "Cart - Items"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-quantity.class.php:49
+msgid "Cart total quantity"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-subtotal.class.php:49
+msgid "Cart subtotal"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart-weight.class.php:49
+msgid "Cart total weight"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-cart.class.php:46
+msgid "Cart"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-checkout-payment-method.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-payment-method.class.php:49
+msgid "Payment method"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-checkout-shipping-method.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-shipping-method.class.php:49
+msgid "Shipping method"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-checkout.class.php:46
+msgid "Checkout"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-custom-taxonomy.class.php:45
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-capability.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-customer-capability.class.php:49
+msgid "User capability"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-customer.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer.class.php:46
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-customer.class.php:45
+msgid "Customer"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-logged-in.class.php:46
+msgid "Is logged in"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-meta.class.php:51
+msgid "User meta"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-role.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-customer-role.class.php:49
+msgid "User role"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-amount-spent.class.php:51
+msgid "Spent - Total"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-average-order-amount.class.php:51
+msgid "Spent - Average per order"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-last-order-amount.class.php:49
+msgid "Spent - Last order"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-last-order-time.class.php:49
+msgid "Last order"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-order-count.class.php:51
+msgid "Order count"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value-review-count.class.php:49
+msgid "Customer review count"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-customer-value.class.php:46
+msgid "Customer - Value"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-attributes.class.php:49
+msgid "Order items - Attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-categories.class.php:49
+msgid "Order items - Categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-tags.class.php:49
+msgid "Order items - Tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-product-variations.class.php:49
+msgid "Order items - Variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items-products.class.php:49
+msgid "Order items - Products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-items.class.php:45
+msgid "Order Items"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-shipping.class.php:45
+msgid "Shipping"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order-total.class.php:49
+msgid "Order total"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-order.class.php:45
+msgid "Order"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-attributes.class.php:49
+msgid "Product attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-category.class.php:49
+msgid "Product category"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-other-cart-item-data.class.php:51
+msgid "Cart item data"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-product.class.php:49
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product.class.php:45
+msgid "Product"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-meta.class.php:51
+msgid "Product metadata"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-on-sale.class.php:46
+msgid "Product is on sale"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-regular-price.class.php:49
+msgid "Product regular price"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-sale-price.class.php:49
+msgid "Product sale price"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-shipping-class.class.php:49
+msgid "Product shipping class"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-stock-quantity.class.php:49
+msgid "Product stock quantity"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property-type.class.php:49
+msgid "Product type"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-property.class.php:45
+msgid "Product Property"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-tags.class.php:49
+msgid "Product tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-product-variation.class.php:49
+msgid "Product variation"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-attributes.class.php:51
+msgid "Purchased - Attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-categories.class.php:51
+msgid "Purchased - Categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-tags.class.php:51
+msgid "Purchased - Tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-product-variations.class.php:51
+msgid "Purchased - Variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-products.class.php:51
+msgid "Purchased - Products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-attributes.class.php:51
+msgid "Quantity purchased - Attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-categories.class.php:51
+msgid "Quantity purchased - Categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-tags.class.php:51
+msgid "Quantity purchased - Tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-product-variations.class.php:51
+msgid "Quantity purchased - Variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity-products.class.php:51
+msgid "Quantity purchased - Products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-quantity.class.php:46
+msgid "Purchase History - Quantity"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-attributes.class.php:51
+msgid "Value purchased - Attributes"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-categories.class.php:51
+msgid "Value purchased - Categories"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-tags.class.php:51
+msgid "Value purchased - Tags"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-product-variations.class.php:51
+msgid "Value purchased - Variations"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value-products.class.php:51
+msgid "Value purchased - Products"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history-value.class.php:46
+msgid "Purchase History - Value"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-purchase-history.class.php:46
+msgid "Purchase History"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-country.class.php:49
+msgid "Shipping country"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-postcode.class.php:49
+msgid "Shipping postcode"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-state.class.php:49
+msgid "Shipping state"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping-zone.class.php:49
+msgid "Shipping zone"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-shipping.class.php:46
+msgid "Checkout - Address"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-date.class.php:49
+msgid "Date"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-datetime.class.php:49
+msgid "Date & time"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-days-of-month.class.php:49
+msgid "Days of month"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-months.class.php:49
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:109
+msgid "Months"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-time.class.php:49
+msgid "Time"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time-weekdays.class.php:49
+msgid "Days of week"
+msgstr ""
+
+#: rightpress/class-collections/conditions/conditions/rightpress-condition-time.class.php:45
+msgid "Date & Time"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:47
+msgid "Current"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:50
+msgid "current day"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:54
+msgid "current week"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:58
+msgid "current month"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:62
+msgid "current year"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:70
+msgid "Last"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:73
+#: rightpress/classes/helper/rightpress-conditions.class.php:359
+msgid "last day"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:78
+msgid "last week"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:83
+msgid "last month"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:88
+msgid "last year"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:103
+msgid "Weeks"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:115
+msgid "Years"
+msgstr ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:123
+#: rightpress/classes/utility/rightpress-time.class.php:61
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:131
+#: rightpress/classes/utility/rightpress-time.class.php:68
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:139
+#: rightpress/classes/utility/rightpress-time.class.php:75
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/conditions/rightpress-conditions-timeframes.class.php:147
+#: rightpress/classes/utility/rightpress-time.class.php:82
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:46
+msgctxt "Log entry status"
+msgid "Processing"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:47
 #, php-format
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:52
+msgctxt "Log entry status"
+msgid "Success"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:53
+#, php-format
+msgid "Success <span class=\"count\">(%s)</span>"
+msgid_plural "Success <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:58
+msgctxt "Log entry status"
+msgid "Warning"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:59
+#, php-format
+msgid "Warning <span class=\"count\">(%s)</span>"
+msgid_plural "Warning <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:64
+msgctxt "Log entry status"
+msgid "Failed"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:65
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:70
+msgctxt "Log entry status"
+msgid "Error"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:71
+#, php-format
+msgid "Error <span class=\"count\">(%s)</span>"
+msgid_plural "Error <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:130
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:131
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:136
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:142
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:144
+msgid "Activity Log"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:132
+msgid "Add Log Entry"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:133
+msgid "Add New Log Entry"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:134
+msgid "Edit Log Entry"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:135
+msgid "New Log Entry"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:137
+msgid "View Log Entry"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:138
+msgid "Search Activity Log"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:139
+msgid "No Log Entries Found"
+msgstr ""
+
+#: rightpress/class-collections/object-control/object-controllers/rightpress-wp-log-entry-controller.class.php:140
+msgid "No Log Entries Found In Trash"
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:262
+msgid "Invalid log entry event type."
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:382
+#, php-format
+msgid "PHP Fatal error %s in %s on line %s."
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:387
+msgid "Execution ended prematurely."
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:387
+msgid "Reason unknown."
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:466
+msgid "Unexpected error occurred."
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:533
+#, php-format
+msgid "user #%d"
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:538
+msgid "system"
+msgstr ""
+
+#: rightpress/class-collections/object-control/objects/rightpress-wp-log-entry.class.php:565
+msgid "User profile"
+msgstr ""
+
+#: rightpress/classes/helper/rightpress-conditions.class.php:508
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: rightpress/classes/helper/rightpress-conditions.class.php:879
+msgid "Other locations"
+msgstr ""
+
+#: rightpress/classes/helper/rightpress-conditions.class.php:905
+msgid "All zones"
+msgstr ""
+
+#: rightpress/classes/helper/rightpress-help.class.php:3078
+msgid "Standard Rate"
+msgstr ""
+
+#: rightpress/classes/helper/rightpress-help.class.php:3794
+#, php-format
+msgid "%1$s was called incorrectly. %2$s. Since version %3$s."
+msgstr ""
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:135
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:140
+#, php-format
+msgid "In %d second"
+msgid_plural "In %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:145
+msgid "Now!"
+msgstr ""
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:152
+msgid "In"
+msgstr ""
+
+#: rightpress/classes/utility/rightpress-datetime.class.php:153
+msgid "ago"
+msgstr ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:46
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:47
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:53
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:54
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:62
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:69
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:76
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:83
+#, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:129
+#: rightpress/classes/utility/rightpress-time.class.php:153
+#: rightpress/classes/utility/rightpress-time.class.php:289
+msgid "Invalid time period."
+msgstr ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:275
+msgid "Invalid datetime."
+msgstr ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:284
+msgid "Invalid time period length."
+msgstr ""
+
+#: rightpress/classes/utility/rightpress-time.class.php:338
+msgid "Target length undefined."
+msgstr ""
+
+#: rightpress/components/rightpress-product-list-shared-column/rightpress-product-list-shared-column.class.php:48
+msgid "Properties"
+msgstr ""
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:874
+msgid "Add values"
+msgstr ""
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:875
+msgid "Start typing..."
+msgstr ""
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:885
+msgid "Value must be greater than or equal to {{value}}."
+msgstr ""
+
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1649
 msgid ""
-"There is a new version of %s available. To enable automatic updates, enter "
-"your CodeCanyon Purchase Code below."
+"Warning! Importing settings will irrecoverably overwrite your existing "
+"settings."
 msgstr ""
 
-#: rightpress-updates/rightpress-updates.class.php:572
-#, php-format
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1783
 msgid ""
-"%s supports automatic updates. To receive them, enter your CodeCanyon "
-"Purchase Code below."
+"Error: Uploaded settings file is invalid. It might be corrupted or truncated."
 msgstr ""
 
-#: rightpress-updates/rightpress-updates.class.php:586
-#: rightpress-updates/rightpress-updates.class.php:928
-msgid "Purchase Code"
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:592
-msgid "Submit"
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:598
-#: rightpress-updates/rightpress-updates.class.php:1209
-msgid "Where do I find my Purchase Code?"
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:600
-msgid "Do not remind me again"
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:602
-msgid "Hide This Notice"
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:703
-msgid "Purchase Code format is invalid."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:711
-#: rightpress-updates/rightpress-updates.class.php:991
-msgid "Unable to verify Purchase Code right now. Please try again later."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:715
-#: rightpress-updates/rightpress-updates.class.php:979
-msgid "Purchase Code is not valid."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:719
-#: rightpress-updates/rightpress-updates.class.php:985
-msgid "Purchase Code belongs to another product."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:944
-msgid "Enter your Envato Purchase Code to enable automatic updates."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:971
-msgid "Purchase Code has been successfully updated."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:975
-msgid "Purchase Code has been successfully reset."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:979
-msgid "Please fix it and try again."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:985
-msgid "Please change it and try again."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:1209
-#, php-format
-msgid "You must enter your Purchase Code %s to enable automatic updates."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:1209 rp_wcdpd.class.php:408
-msgid "here"
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:1213
-#, php-format
-msgid "RightPress no longer serves automatic updates as your %s has expired."
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:1213
-msgid "support subscription"
-msgstr ""
-
-#: rightpress-updates/rightpress-updates.class.php:1213
-#, php-format
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1788
 msgid ""
-"You can %1$s your support subscription or use %2$s to keep this plugin "
-"updated."
+"Error: Uploaded file contains settings for a different plugin. Please check "
+"your file and try again."
 msgstr ""
 
-#: rightpress-updates/rightpress-updates.class.php:1213
-msgid "renew"
+#: rightpress/components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1793
+msgid ""
+"Error: There was an error processing uploaded settings file. Please try "
+"again."
 msgstr ""
 
-#: rightpress-updates/rightpress-updates.class.php:1213
-msgid "other methods"
+#: rightpress/components/rightpress-settings-component/views/plugin/preloader.php:20
+#: views/settings/preloader.php:22
+msgid "User Interface Loading"
 msgstr ""
 
-#: rp_wcdpd.class.php:384
+#: rightpress/components/rightpress-settings-component/views/plugin/preloader.php:24
+msgid ""
+"This plugin uses a JavaScript-driven user interface. If this notice does not "
+"disappear within a few seconds, you should check Console for any JavaScript "
+"errors."
+msgstr ""
+
+#: rp_wcdpd.class.php:393
 #, php-format
 msgid ""
 "%1$s requires PHP %2$s or later. Please update PHP on your server to use "
 "this plugin."
 msgstr ""
 
-#: rp_wcdpd.class.php:384 rp_wcdpd.class.php:396 rp_wcdpd.class.php:408
-#: rp_wcdpd.class.php:420
-#, php-format
-msgid "If you have any questions, please contact %s."
-msgstr ""
-
-#: rp_wcdpd.class.php:384 rp_wcdpd.class.php:396 rp_wcdpd.class.php:408
-#: rp_wcdpd.class.php:420 views/settings/preloader.php:26
-msgid "RightPress Support"
-msgstr ""
-
-#: rp_wcdpd.class.php:396
+#: rp_wcdpd.class.php:405
 #, php-format
 msgid ""
 "%1$s requires WordPress version %2$s or later. Please update WordPress to "
 "use this plugin."
 msgstr ""
 
-#: rp_wcdpd.class.php:408
+#: rp_wcdpd.class.php:417
 #, php-format
-msgid ""
-"%1$s requires WooCommerce to be active. You can download WooCommerce %2$s."
+msgid "%1$s requires WooCommerce to be active."
 msgstr ""
 
-#: rp_wcdpd.class.php:420
+#: rp_wcdpd.class.php:429
 #, php-format
 msgid ""
 "%1$s requires WooCommerce version %2$s or later. Please update WooCommerce "
 "to use this plugin."
 msgstr ""
 
-#: rp_wcdpd.class.php:434
-msgid "Support"
-msgstr ""
-
-#: views/settings/preloader.php:22
-msgid "User Interface Loading"
-msgstr ""
-
 #: views/settings/preloader.php:26
-#, php-format
 msgid ""
 "This plugin uses a JavaScript-driven user interface. If this notice does not "
 "disappear in a few seconds, you should check Console for any JavaScript "
-"errors or get in touch with %s."
+"errors."
 msgstr ""
 
 #: views/settings/preloader.php:30

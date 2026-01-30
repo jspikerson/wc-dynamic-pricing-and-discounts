@@ -47,8 +47,9 @@ class RP_WCDPD
      */
     public function load_textdomains()
     {
-        load_textdomain('rp_wcdpd', WP_LANG_DIR . '/' . RP_WCDPD_PLUGIN_KEY . '/rp_wcdpd-' . apply_filters('plugin_locale', get_locale(), 'rp_wcdpd') . '.mo');
-        load_textdomain('rightpress', WP_LANG_DIR . '/' . RP_WCDPD_PLUGIN_KEY . '/rightpress-' . apply_filters('plugin_locale', get_locale(), 'rightpress') . '.mo');
+        $locale = function_exists('determine_locale') ? determine_locale() : get_locale();
+        load_textdomain('rp_wcdpd', WP_LANG_DIR . '/' . RP_WCDPD_PLUGIN_KEY . '/rp_wcdpd-' . apply_filters('plugin_locale', $locale, 'rp_wcdpd') . '.mo');
+        load_textdomain('rightpress', WP_LANG_DIR . '/' . RP_WCDPD_PLUGIN_KEY . '/rightpress-' . apply_filters('plugin_locale', $locale, 'rightpress') . '.mo');
         load_plugin_textdomain('rp_wcdpd', false, RP_WCDPD_PLUGIN_KEY . '/languages/');
         load_plugin_textdomain('rightpress', false, RP_WCDPD_PLUGIN_KEY . '/languages/');
     }

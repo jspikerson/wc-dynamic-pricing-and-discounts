@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.5.7 — 2026-01-30
+- Fix   — Locale-aware AJAX results for date-related Select2 fields (months, weekdays, days of month).
+- Fix   — Datetimepicker locale normalization; locale now resolved per user context.
+- Fix   — Select2 i18n messages for “input too short” and “searching” in settings/rules UI.
+- Tweak — Datetimepicker script switched to full build to align locale handling.
+- Tweak — Select2 multi UI styling adjustments for chips and inline search field.
+- Update — Translation bundles regenerated for rp_wcdpd and rightpress textdomains.
+
 ## 2.5.6 — 2026-01-02
 - Fix — Prevent PHP 8 TypeError when subtracting prices if base/adjusted amounts arrive as strings (e.g., variable products with all variations out of stock). Enforced float casting in reference amount calculation and average price return to ensure robust handling without breaking category pages or variable product rendering.
 

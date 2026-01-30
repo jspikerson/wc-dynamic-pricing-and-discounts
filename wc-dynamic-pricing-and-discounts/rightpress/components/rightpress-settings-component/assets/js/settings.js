@@ -6,6 +6,8 @@ jQuery(document).ready(function() {
 
     'use strict';
 
-    // TODO: Add something or remove file
+    if (typeof rp_wcdpd_datetimepicker_locale !== 'undefined' && jQuery.datetimepicker && jQuery.datetimepicker.setLocale) {
+        jQuery.datetimepicker.setLocale(rp_wcdpd_datetimepicker_locale.x);
+    }
 
 });

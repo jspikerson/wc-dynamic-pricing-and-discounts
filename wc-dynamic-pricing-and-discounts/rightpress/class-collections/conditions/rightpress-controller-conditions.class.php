@@ -322,6 +322,14 @@ abstract class RightPress_Controller_Conditions extends RightPress_Item_Controll
     {
 
         $options = array();
+        $locale_switched = false;
+
+        if (function_exists('get_user_locale') && function_exists('switch_to_locale') && function_exists('restore_previous_locale')) {
+            $user_locale = function_exists('determine_locale') ? determine_locale() : get_user_locale();
+            if (!empty($user_locale) && $user_locale !== get_locale()) {
+                $locale_switched = switch_to_locale($user_locale);
+            }
+        }
 
         // Check if required vars are set
         if (!empty($_POST['type'])) {
@@ -335,6 +343,10 @@ abstract class RightPress_Controller_Conditions extends RightPress_Item_Controll
                     'selected'  => (!empty($_POST['selected']) && is_array($_POST['selected'])) ? $_POST['selected'] : array(),
                 ));
             }
+        }
+
+        if ($locale_switched) {
+            restore_previous_locale();
         }
 
         // Return data and exit

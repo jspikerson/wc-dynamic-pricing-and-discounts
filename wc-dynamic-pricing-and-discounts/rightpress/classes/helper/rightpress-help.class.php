@@ -245,7 +245,8 @@ final class RightPress_Help
     public static function get_optimized_locale($method = 'single')
     {
         // Split WordPress locale
-        $parts = explode('_', get_locale());
+        $locale = function_exists('determine_locale') ? determine_locale() : (function_exists('get_user_locale') ? get_user_locale() : get_locale());
+        $parts = explode('_', $locale);
 
         // Expected result?
         if (is_array($parts) && count($parts) == 2 && $parts[1] != 'US') {

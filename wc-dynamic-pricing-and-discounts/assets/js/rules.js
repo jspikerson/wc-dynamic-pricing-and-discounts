@@ -1047,11 +1047,21 @@ jQuery(document).ready(function() {
                 fix_coupons_applied_condition(key, alias, element, condition_type);
             });
 
-            // Date and time pickers
+            if (jQuery.fn && jQuery.fn.datetimepicker && jQuery.fn.datetimepicker.defaults && jQuery.fn.datetimepicker.defaults.i18n && !jQuery.fn.datetimepicker.defaults.i18n['pt-BR']) {
+                jQuery.fn.datetimepicker.defaults.i18n['pt-BR'] = {
+                    months: [
+                        "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+                    ],
+                    dayOfWeekShort: [
+                        "Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"
+                    ],
+                    dayOfWeek: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+                };
+            }
+            jQuery.datetimepicker.setLocale(rp_wcdpd_datetimepicker_locale.x);
             element.find('.rp_wcdpd_date').datetimepicker(rp_wcdpd_datetimepicker_date_config.x);
             element.find('.rp_wcdpd_time').datetimepicker(rp_wcdpd_datetimepicker_time_config.x);
             element.find('.rp_wcdpd_datetime').datetimepicker(rp_wcdpd_datetimepicker_datetime_config.x);
-            jQuery.datetimepicker.setLocale(rp_wcdpd_datetimepicker_locale.x);
         }
 
         // Fix meta field condition
@@ -1174,6 +1184,12 @@ jQuery(document).ready(function() {
             language: {
                 noResults: function (params) {
                     return rp_wcdpd.labels.select2_no_results;
+                },
+                inputTooShort: function (params) {
+                    return rp_wcdpd.labels.select2_input_too_short;
+                },
+                searching: function (params) {
+                    return rp_wcdpd.labels.select2_searching;
                 }
             },
             ajax: {

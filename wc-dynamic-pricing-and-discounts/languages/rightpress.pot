@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RightPress Library\n"
-"POT-Creation-Date: 2023-09-16 10:55+0300\n"
+"POT-Creation-Date: 2026-01-30 02:26-0300\n"
 "PO-Revision-Date: 2014-03-10 23:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: RightPress <info@rightpress.net>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
 "__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
 "esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
@@ -1028,80 +1028,80 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:865
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:874
 msgid "Add values"
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:866
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:875
 msgid "Start typing..."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:872
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:881
 msgid "Error: Please fix this element."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:873
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:882
 msgid "Value is required."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:874
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:883
 msgid "Value must be a whole number."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:875
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:884
 msgid "Value must be positive."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:876
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:885
 msgid "Value must be greater than or equal to {{value}}."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1258
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1272
 msgid "Unable to validate settings."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1282
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1296
 msgid "Settings updated."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1627
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1641
 msgid "Import & Export"
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1633
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1647
 msgid "Import settings"
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1635
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1649
 msgid ""
 "Warning! Importing settings will irrecoverably overwrite your existing "
 "settings."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1640
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1654
 msgid "Export settings"
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1641
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1655
 msgid "Click here to export"
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1757
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1771
 msgid "Settings were successfully imported."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1769
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1783
 msgid ""
 "Error: Uploaded settings file is invalid. It might be corrupted or truncated."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1774
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1788
 msgid ""
 "Error: Uploaded file contains settings for a different plugin. Please check "
 "your file and try again."
 msgstr ""
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1779
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1793
 msgid ""
 "Error: There was an error processing uploaded settings file. Please try "
 "again."
@@ -1112,13 +1112,8 @@ msgid "User Interface Loading"
 msgstr ""
 
 #: components/rightpress-settings-component/views/plugin/preloader.php:24
-#, php-format
 msgid ""
 "This plugin uses a JavaScript-driven user interface. If this notice does not "
 "disappear within a few seconds, you should check Console for any JavaScript "
-"errors or get in touch with %s."
-msgstr ""
-
-#: components/rightpress-settings-component/views/plugin/preloader.php:24
-msgid "RightPress Support"
+"errors."
 msgstr ""

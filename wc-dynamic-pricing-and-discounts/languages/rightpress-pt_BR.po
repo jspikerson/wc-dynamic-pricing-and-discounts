@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RightPress Library\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-16 10:55+0300\n"
-"PO-Revision-Date: 2025-03-12 11:08-0300\n"
+"POT-Creation-Date: 2026-01-30 02:25-0300\n"
+"PO-Revision-Date: 2026-01-30 02:25-0300\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -1029,51 +1029,51 @@ msgstr "Preço"
 msgid "Settings"
 msgstr "Configurações"
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:865
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:874
 msgid "Add values"
 msgstr "Adicionar valores"
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:866
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:875
 msgid "Start typing..."
 msgstr "Comece a digitar..."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:872
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:881
 msgid "Error: Please fix this element."
 msgstr "Erro: Corrija este elemento."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:873
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:882
 msgid "Value is required."
 msgstr "Valor é obrigatório."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:874
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:883
 msgid "Value must be a whole number."
 msgstr "O valor deve ser um número inteiro."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:875
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:884
 msgid "Value must be positive."
 msgstr "O valor deve ser positivo."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:876
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:885
 msgid "Value must be greater than or equal to {{value}}."
 msgstr "O valor deve ser maior ou igual a {{value}}."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1258
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1272
 msgid "Unable to validate settings."
 msgstr "Não é possível validar as configurações."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1282
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1296
 msgid "Settings updated."
 msgstr "Configurações atualizadas."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1627
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1641
 msgid "Import & Export"
 msgstr "Importar & Exportar"
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1633
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1647
 msgid "Import settings"
 msgstr "Importar Configurações"
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1635
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1649
 msgid ""
 "Warning! Importing settings will irrecoverably overwrite your existing "
 "settings."
@@ -1081,26 +1081,26 @@ msgstr ""
 "Aviso! Importar configurações sobrescreverá irrevogavelmente suas "
 "configurações existentes."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1640
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1654
 msgid "Export settings"
 msgstr "Exportar Configurações"
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1641
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1655
 msgid "Click here to export"
 msgstr "Clique aqui para exportar"
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1757
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1771
 msgid "Settings were successfully imported."
 msgstr "As configurações foram importadas com sucesso."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1769
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1783
 msgid ""
 "Error: Uploaded settings file is invalid. It might be corrupted or truncated."
 msgstr ""
 "Erro: O arquivo de configurações enviado é inválido. Ele pode estar "
 "corrompido ou truncado."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1774
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1788
 msgid ""
 "Error: Uploaded file contains settings for a different plugin. Please check "
 "your file and try again."
@@ -1108,7 +1108,7 @@ msgstr ""
 "Erro: O arquivo enviado contém configurações para um plugin diferente. "
 "Verifique seu arquivo e tente novamente."
 
-#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1779
+#: components/rightpress-settings-component/classes/rightpress-plugin-settings.class.php:1793
 msgid ""
 "Error: There was an error processing uploaded settings file. Please try "
 "again."
@@ -1121,16 +1121,14 @@ msgid "User Interface Loading"
 msgstr "Carregando a interface do usuário"
 
 #: components/rightpress-settings-component/views/plugin/preloader.php:24
-#, php-format
 msgid ""
 "This plugin uses a JavaScript-driven user interface. If this notice does not "
 "disappear within a few seconds, you should check Console for any JavaScript "
-"errors or get in touch with %s."
+"errors."
 msgstr ""
-"Este plugin usa uma interface de usuário orientada a JavaScript. Se este "
-"aviso não desaparecer em alguns segundos, você deve verificar o Console para "
-"quaisquer erros de JavaScript ou entrar em contato com %s."
+"Este plugin utiliza uma interface de usuário baseada em JavaScript. Se este "
+"aviso não desaparecer em alguns segundos, verifique o Console em busca de "
+"erros de JavaScript."
 
-#: components/rightpress-settings-component/views/plugin/preloader.php:24
-msgid "RightPress Support"
-msgstr "RightPress Support"
+#~ msgid "RightPress Support"
+#~ msgstr "RightPress Support"

@@ -1,7 +1,7 @@
 # WooCommerce Dynamic Pricing & Discounts — Community Maintenance
 
-Version: 2.5.6  
-Date: 2026-01-02
+Version: 2.5.7  
+Date: 2026-01-30
 
 ## Summary
 - Maintained plugin without altering original functionality.
@@ -15,6 +15,10 @@ Date: 2026-01-02
   - Inputs and selects on settings pages standardized to 34px height for visual consistency.
   - Textareas kept at 46px minimum height (two lines) by default.
   - Select2/selectWoo multiple: consistent visual alignment (container 34px; inline search margin tuned; choice chip vertical offset).
+- Localization fixes: date/time dropdowns in Select2 now honor user locale in AJAX responses.
+- Localization fixes: datetimepicker locale normalized with safer locale resolution.
+- Select2 UX: added localized messages for “input too short” and “searching”.
+- Translation bundles updated for RightPress and rp_wcdpd textdomains.
 
 ## Compatibility
 - WordPress 6.5+ (tested up to 6.9)

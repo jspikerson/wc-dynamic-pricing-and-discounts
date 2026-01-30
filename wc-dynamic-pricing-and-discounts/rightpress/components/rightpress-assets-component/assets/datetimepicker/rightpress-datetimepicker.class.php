@@ -45,7 +45,7 @@ class RightPress_Datetimepicker extends RightPress_Asset
 
         $this->scripts = array(
             'rightpress-datetimepicker-scripts' => array(
-                'relative_url'  => 'assets/js/jquery.datetimepicker.full.min.js',
+                'relative_url'  => 'assets/js/jquery.datetimepicker.full.js',
                 'dependencies'  => array('jquery'),
                 'variables'     => array(
                     'datetime_config'   => array($this, 'get_datetime_config'),
@@ -250,11 +250,22 @@ class RightPress_Datetimepicker extends RightPress_Asset
             'zh_HK' => 'zh-TW', 'zh_TW' => 'zh-TW',
         );
 
-        // Get WordPress locale
-        $wp_locale = RightPress_Help::get_optimized_locale('mixed');
+        $wp_locale = function_exists('determine_locale') ? determine_locale() : get_locale();
+        $normalized_locale = str_replace('-', '_', $wp_locale);
+        $normalized_locale = preg_replace_callback('/^([a-z]{2,3})_([a-z]{2,3})$/i', function($matches) {
+            return strtolower($matches[1]) . '_' . strtoupper($matches[2]);
+        }, $normalized_locale);
+        $primary_locale = strtolower(strtok($normalized_locale, '_'));
 
-        // Locale is defined
-        return isset($map[$wp_locale]) ? $map[$wp_locale] : 'en';
+        if (isset($map[$normalized_locale])) {
+            return $map[$normalized_locale];
+        }
+
+        if (isset($map[$primary_locale])) {
+            return $map[$primary_locale];
+        }
+
+        return 'en';
     }
 
 
