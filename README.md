@@ -1,7 +1,4 @@
-# WooCommerce Dynamic Pricing & Discounts — Community Maintenance
-
-Version: 2.5.7  
-Date: 2026-01-30
+# WooCommerce Dynamic Pricing & Discounts
 
 ## Summary
 - Maintained plugin without altering original functionality.
@@ -12,7 +9,7 @@ Date: 2026-01-30
 - UX: removed “Loading user interface” preloader on settings pages to prevent flickering.
 - PHP 8.2 compatibility: avoid deprecation notices (string cast in `htmlspecialchars`), translations loading moved to the `init` hook, settings initialization also moved to `init`.
 - Visual tweaks:
-  - Inputs and selects on settings pages standardized to 34px height for visual consistency.
+  - Inputs and selects on settings pages are standardized to 34px height for visual consistency.
   - Textareas kept at 46px minimum height (two lines) by default.
   - Select2/selectWoo multiple: consistent visual alignment (container 34px; inline search margin tuned; choice chip vertical offset).
 - Localization fixes: date/time dropdowns in Select2 now honor user locale in AJAX responses.
@@ -26,22 +23,4 @@ Date: 2026-01-30
 - PHP 8.0+ (optimized for 8.2+)
 - Declared HPOS compatibility
 
-## Installation / Upgrade
 
-**[Download Latest Version (ZIP)](https://github.com/dennisfranck/wc-dynamic-pricing-and-discounts-by-dead-rightpress/raw/main/wc-dynamic-pricing-and-discounts.zip)**  
-*(Link to the latest source code zipball, instalable)*
-
-**Steps:**
-1. Go to **Plugins → Add New → Upload Plugin**.
-2. Upload the downloaded ZIP file.
-3. Click **Install Now**.
-4. If prompted, confirm to **Replace current with uploaded**.
-
-## Support & Scope
-- **[Report a Bug](https://github.com/dennisfranck/wc-dynamic-pricing-and-discounts-by-dead-rightpress/issues)**: Please use the Issues section **only** to report bugs or compatibility problems.
-- **No New Features**: This repository is focused solely on maintenance and keeping the plugin alive. New features will **not** be added here.
-- **Forking**: You are free to clone or fork this repository and implement any new features or changes you desire on your own.
-
-## License / Credits
-- Original author rights preserved; this package is community maintenance.
-- No functional behavior changes, only maintenance and compatibility updates.
